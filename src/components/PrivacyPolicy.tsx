@@ -22,7 +22,7 @@ export default function PrivacyPolicy() {
 
           </header>
 
-          <div className="px-6 py-8 sm:px-8 sm:py-10">
+          <div className="px-4 py-8 sm:px-4 sm:py-10">
             <div className="prose prose-lg prose-gray max-w-none prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6 prose-li:text-gray-700 prose-li:mb-3 prose-li:leading-relaxed prose-strong:text-gray-900 prose-a:text-blue-600 hover:prose-a:text-blue-800 prose-a:no-underline hover:prose-a:underline prose-ul:mb-6 prose-ul:mt-4">
               <section className="max-w-4xl mx-auto px-6 text-gray-800">
                 
