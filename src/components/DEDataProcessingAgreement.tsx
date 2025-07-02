@@ -48,16 +48,16 @@ export default function DataProcessingAgreement() {
               </section>
 
               <section className="mb-8">
-                  <details className="mt-4 space-y-4">
-                    <summary className="text-lg font-semibold text-gray-800">1. Zustimmung zu den Bedingungen</summary>
+                  <div className="mt-4 space-y-4">
+                    <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">1. Zustimmung zu den Bedingungen</summary>
                     <div className="mt-2 space-y-3">
                       <p>Durch die elektronische Annahme dieser DPA (z. B. durch das Ankreuzen eines Feldes oder durch Klick auf „Ich stimme zu“) bestätigt der Verantwortliche, dass er an die Bedingungen gebunden ist. Diese DPA ist integraler Bestandteil des Hauptvertrags zwischen den Parteien und regelt die Verarbeitung personenbezogener Daten gemäss dem anwendbaren Datenschutzrecht, insbesondere der Verordnung (EU) 2016/679 („DSGVO“).</p>
                     </div>
-                  </details>
-                  <details className="mt-4 space-y-4">
-                    <summary className="text-lg font-semibold text-gray-800">2. Begriffsbestimmungen</summary>
+                  </div>
+                  <div className="mt-4 space-y-4">
+                    <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">2. Begriffsbestimmungen</summary>
                     <div className="mt-2 space-y-3">
-                      <ul className="list-disc pl-6">
+                      <ol className="list-decimal pl-6">
                       <li><strong>EU-Datenschutzrecht</strong> bezeichnet die Datenschutz-Grundverordnung (Verordnung (EU) 2016/679, „DSGVO“) sowie alle geltenden umsetzenden oder ergänzenden Datenschutzgesetze der EU-Mitgliedstaaten, soweit sie auf die Parteien anwendbar sind.</li>
                       <li><strong>Datenverantwortlicher</strong>bezeichnet die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung personenbezogener Daten entscheidet, gemäss Artikel 4 Nr. 7 DSGVO.</li>
                       <li><strong>Auftragsverarbeiter</strong>bezeichnet die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet, gemäss Artikel 4 Nr. 8 DSGVO.</li>
@@ -66,11 +66,11 @@ export default function DataProcessingAgreement() {
                       <li><strong>DSGVO</strong>bezeichnet die Verordnung (EU) 2016/679 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten sowie zum freien Datenverkehr.</li>
                       <li>Begriffe, die in dieser DPA nicht ausdrücklich definiert sind, haben die Bedeutung gemäss der DSGVO.</li>
                       <li>Im Falle von Widersprüchen zwischen den in dieser DPA verwendeten Definitionen und jenen der DSGVO gelten die Definitionen der DSGVO vorrangig.</li>
-                    </ul>
+                    </ol>
                     </div>
-                  </details>
-                  <details className="mt-4 space-y-4">
-                    <summary className="text-lg font-semibold text-gray-800">3. Gegenstand</summary>
+                  </div>
+                  <div className="mt-4 space-y-4">
+                    <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">3. Gegenstand</summary>
                     <div className="mt-2 space-y-3">
                       <ol className="pl-6 list-decimal">
                       <li className="mt-4">Der Auftragsverarbeiter stellt eine Plattform für nutzergenerierte Inhalte (82DASH) bereit, über die personenbezogene Daten, die von Creators hochgeladen werden, an den Verantwortlichen übermittelt werden. Der Auftragsverarbeiter verarbeitet diese personenbezogenen Daten ausschliesslich im Auftrag des Verantwortlichen und streng nach dessen dokumentierten Weisungen. Der Umfang, die Art und der Zweck der Verarbeitung sind im Hauptvertrag geregelt und werden in Anhang 1 zu dieser DPA näher beschrieben.</li>
@@ -79,9 +79,9 @@ export default function DataProcessingAgreement() {
                       <li className="mt-4">Die Laufzeit dieser DPA ist an die Laufzeit des Hauptvertrags gekoppelt, sofern in dieser DPA oder gemäss geltendem Datenschutzrecht (z. B. Aufbewahrungspflichten oder Rückgabe-/Löschregelungen bei Vertragsende) nichts anderes festgelegt ist.</li>
                     </ol>
                     </div>
-                  </details>
-                  <details className="mt-4 space-y-4">
-                    <summary className="text-lg font-semibold text-gray-800">4. Weisungsrecht</summary>
+                  </div>
+                  <div className="mt-4 space-y-4">
+                    <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">4. Weisungsrecht</summary>
                     <div className="mt-2 space-y-3">
                       <ol className="pl-6 list-decimal">
                         <li className="mt-4">Der Auftragsverarbeiter darf personenbezogene Daten ausschliesslich im Rahmen des Hauptvertrags und strikt gemäss den dokumentierten Weisungen des Verantwortlichen erheben, verarbeiten oder nutzen. Dies gilt insbesondere für Übermittlungen personenbezogener Daten in ein Drittland oder an eine internationale Organisation.</li>
@@ -91,9 +91,9 @@ export default function DataProcessingAgreement() {
                         <li className="mt-4">Hält der Auftragsverarbeiter eine Weisung des Verantwortlichen für unklar, widersprüchlich oder rechtswidrig im Sinne des EU-Datenschutzrechts, informiert er den Verantwortlichen unverzüglich. Der Auftragsverarbeiter kann die Ausführung der betreffenden Weisung aussetzen, bis sie vom Verantwortlichen bestätigt oder geändert wird. Eine Weisung, die offensichtlich rechtswidrig ist, darf der Auftragsverarbeiter nicht ausführen.</li>
                       </ol>
                     </div>
-                  </details>
-                  <details className="mt-4 space-y-4">
-                    <summary className="text-lg font-semibold text-gray-800">5. Art der verarbeiteten personenbezogenen Daten, betroffene Personengruppen</summary>
+                  </div>
+                  <div className="mt-4 space-y-4">
+                    <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">5. Art der verarbeiteten personenbezogenen Daten, betroffene Personengruppen</summary>
                     <div className="mt-2 space-y-3">
                       <ol className="pl-6 list-decimal">
                         <li className="mt-4">
@@ -107,10 +107,10 @@ export default function DataProcessingAgreement() {
                         </li>
                       </ol>
                     </div>
-                  </details>
+                  </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">6. Sicherheitsmaßnahmen des Auftragsverarbeiters</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">6. Sicherheitsmaßnahmen des Auftragsverarbeiters</summary>
                   <div className="mt-2 space-y-3">
                     <ol className="pl-6 list-decimal">
                       <li className="mt-4">
@@ -118,12 +118,12 @@ export default function DataProcessingAgreement() {
                       </li>
                       <li className="mt-4">
                         Der Auftragsverarbeiter trägt die Verantwortung dafür, dass seine interne organisatorische Struktur und Betriebsabläufe so gestaltet und aufrechterhalten werden, dass sie den Anforderungen des EU-Datenschutzrechts genügen. Gemäß Artikel 32 DSGVO trifft der Auftragsverarbeiter geeignete technische und organisatorische Maßnahmen zum Schutz der verarbeiteten personenbezogenen Daten. Diese beinhalten mindestens:
-                        <ul className="list-disc pl-6 mt-2 space-y-1">
+                        <ol className="list-lower-alpha list-inside pl-6 mt-2 space-y-1">
                           <li>Maßnahmen zur Pseudonymisierung und/oder Verschlüsselung personenbezogener Daten, soweit angemessen;</li>
                           <li>Maßnahmen zur Sicherstellung der laufenden Vertraulichkeit, Integrität, Verfügbarkeit und Belastbarkeit von Verarbeitungssystemen und -diensten;</li>
                           <li>Maßnahmen zur Wiederherstellung der Verfügbarkeit und des Zugriffs auf personenbezogene Daten bei einem physischen oder technischen Vorfall;</li>
                           <li>Verfahren zur regelmäßigen Prüfung, Bewertung und Evaluierung der Wirksamkeit der technischen und organisatorischen Maßnahmen zur Gewährleistung der Sicherheit der Verarbeitung.</li>
-                        </ul>
+                        </ol>
                       </li>
                       <li className="mt-4">
                         Die aktuell vom Auftragsverarbeiter umgesetzten technischen und organisatorischen Maßnahmen sind in Anhang 2 dieser DPA beschrieben. Der Auftragsverarbeiter ist berechtigt, diese Maßnahmen von Zeit zu Zeit zu aktualisieren oder zu ändern, sofern das Sicherheitsniveau dadurch nicht reduziert wird.
@@ -133,24 +133,24 @@ export default function DataProcessingAgreement() {
                       </li>
                     </ol>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">7. Informationspflichten des Auftragsverarbeiters</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">7. Informationspflichten des Auftragsverarbeiters</summary>
                   <div className="mt-2 space-y-3">
                     <ol className="pl-6 list-decimal">
                       <li className="mt-4">
                         Im Falle einer Verletzung des Schutzes personenbezogener Daten – einschließlich sicherheitsrelevanter Vorfälle in Bezug auf Inhalte oder Daten, die im Auftrag des Verantwortlichen verarbeitet werden – informiert der Auftragsverarbeiter den Verantwortlichen unverzüglich und spätestens 48 Stunden nach Bekanntwerden des Vorfalls schriftlich. Dies gilt auch für Prüfungen oder Untersuchungen durch Aufsichtsbehörden, die sich direkt auf Verarbeitungstätigkeiten im Auftrag des Verantwortlichen beziehen. Die Mitteilung enthält mindestens:
-                        <ul className="list-disc pl-6 mt-2">
-                          <li>Eine Beschreibung der Art des Vorfalls, einschließlich (soweit möglich) der Kategorien und der ungefähren Zahl betroffener Personen sowie der betroffenen Datensätze.</li>
-                          <li>Eine Beschreibung der ergriffenen oder vorgeschlagenen Maßnahmen zur Behebung der Verletzung und gegebenenfalls zur Minderung möglicher nachteiliger Auswirkungen.</li>
-                        </ul>
+                        <ol className="list-disc list-lower-alpha list-inside pl-6 mt-2">
+                          <li className="mt-4 mb-4">eine Beschreibung der Art des Vorfalls, einschliesslich (soweit möglich) der Kategorien und der ungefähren Zahl betroffener Personen sowie der betroffenen Datensätze.</li>
+                          <li>eine Beschreibung der ergriffenen oder vorgeschlagenen Massnahmen zur Behebung der Verletzung und gegebenenfalls zur Minderung möglicher nachteiliger Auswirkungen</li>
+                        </ol>
                       </li>
                       <li className="mt-4">
-                        Der Auftragsverarbeiter setzt unverzüglich geeignete Maßnahmen zur Sicherung der Daten und zur Schadensminderung um.
+                        Der Auftragsverarbeiter setzt unverzüglich geeignete Massnahmen zur Sicherung der Daten und zur Schadensminderung um
                       </li>
                       <li className="mt-4">
-                        Auf Anfrage oder bei Bekanntwerden stellt der Auftragsverarbeiter dem Verantwortlichen relevante Informationen oder Updates zur Verfügung, wenn dessen Daten von einem Vorfall betroffen sind.
+                        Auf Anfrage oder bei Bekanntwerden stellt der Auftragsverarbeiter dem Verantwortlichen relevante Informationen oder Updates zur Verfügung, wenn dessen Daten von einem Vorfall betroffen sind
                       </li>
                       <li className="mt-4">
                         Werden Daten des Verantwortlichen beschlagnahmt, gepfändet, durch Insolvenz- oder Vollstreckungsverfahren bedroht oder auf ähnliche Weise durch Dritte gefährdet, informiert der Auftragsverarbeiter den Verantwortlichen umgehend. In solchen Fällen stellt der Auftragsverarbeiter klar, dass die Hoheit über die Daten ausschließlich beim Verantwortlichen liegt gemäß DSGVO.
@@ -166,10 +166,10 @@ export default function DataProcessingAgreement() {
                       </li>
                     </ol>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">8. Rollen und Verantwortlichkeiten</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">8. Rollen und Verantwortlichkeiten</summary>
                   <div className="mt-2 space-y-3">
                     <h4 className="font-semibold">Rolle als Auftragsverarbeiter:</h4>
                     <ol className="pl-6 list-decimal">
@@ -225,10 +225,10 @@ export default function DataProcessingAgreement() {
                       In dieser Rolle ist der Auftragsverarbeiter selbst für die Einhaltung der datenschutzrechtlichen Vorschriften verantwortlich und stellt sicher, dass betroffene Personen über die Verarbeitung angemessen informiert werden. Anfragen von Betroffenen zu diesen Verarbeitungen beantwortet der Auftragsverarbeiter direkt.
                     </p>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">9. Einsatz von Unterauftragsverarbeitern</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">9. Einsatz von Unterauftragsverarbeitern</summary>
                   <div className="mt-2 space-y-3">
                     <ol className="list-decimal pl-6">
                       <li className="mt-4">
@@ -242,17 +242,17 @@ export default function DataProcessingAgreement() {
                       </li>
                     </ol>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">
                     10. Internationale Datenübermittlungen
                   </summary>
                   <div className="mt-2 space-y-3">
                     <p>Verantwortlicher und Auftragsverarbeiter erkennen an:</p>
                     <ol className="list-decimal pl-6 space-y-4">
                       <li>
-                        Sollten Daten ausserhalb des EWR verarbeitet oder übermittelt werden, erfolgt dies gemäss den Artikeln 44 ff. DSGVO. Der Verantwortliche stellt sicher, dass die EU-Standardvertragsklauseln (Durchführungsbeschluss (EU) 2021/914 vom 4. Juni 2021) sowie etwaige ergänzende Massnahmen zur Anwendung kommen (siehe <strong>Anhang 4</strong>).
+                        Sollten Daten ausserhalb des EWR verarbeitet oder übermittelt werden, erfolgt dies gemäss den Artikeln 44 ff. DSGVO. Der Verantwortliche stellt sicher, dass die EU-Standardvertragsklauseln (Durchführungsbeschluss (EU) 2021/914 vom 4. Juni 2021) sowie etwaige ergänzende Massnahmen zur Anwendung kommen (siehe Anhang 4).
                       </li>
                       <li>
                         Im Fall eines Widerspruchs zwischen den Bestimmungen dieser DPA und den Standardvertragsklauseln gehen Letztere vor.
@@ -265,10 +265,10 @@ export default function DataProcessingAgreement() {
                       </li>
                     </ol>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">
                     11. Anfragen und Rechte betroffener Personen
                   </summary>
                   <div className="mt-2 space-y-3">
@@ -279,10 +279,10 @@ export default function DataProcessingAgreement() {
                       Richtet eine betroffene Person direkt an den Auftragsverarbeiter eine Anfrage (z. B. auf Auskunft gemäss Art. 15, Berichtigung gemäss Art. 16 oder Löschung gemäss Art. 17 DSGVO), informiert der Auftragsverarbeiter unverzüglich den Verantwortlichen, sodass dieser entsprechend reagieren kann.
                     </p>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">
                     12. Verantwortlichkeiten des Verantwortlichen bei Vertragsende
                   </summary>
                   <div className="mt-2 space-y-3">
@@ -296,10 +296,10 @@ export default function DataProcessingAgreement() {
                       </li>
                     </ol>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                    <summary className="text-lg font-semibold text-gray-800">
+                <div className="mt-4 space-y-4">
+                    <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">
                       13. Schlussbestimmungen
                     </summary>
                     <div className="mt-2 space-y-3">
@@ -324,25 +324,25 @@ export default function DataProcessingAgreement() {
                         </li>
                       </ol>
                     </div>
-                  </details>
+                  </div>
 
                   <h1 className="mt-4 text-3xl font-semibold text-gray-900 sm:text-2xl">
                       Anhänge
                     </h1>
                     <ul className="pl-6">
                       <li>
-                        Anhang 1 – Beschreibung der Verarbeitungstätigkeiten, Zwecke, verarbeiteten personenbezogenen Daten und besonderen Kategorien personenbezogener Daten
+                        <strong>Anhang 1</strong><br/> Beschreibung der Verarbeitungstätigkeiten, Zwecke, verarbeiteten personenbezogenen Daten und besonderen Kategorien personenbezogener Daten
                       </li>
                       <li className="mt-4">
-                        Anhang 2 – Technische und organisatorische Massnahmen des Auftragsverarbeiters
+                        <strong>Anhang 2</strong><br/> Technische und organisatorische Massnahmen des Auftragsverarbeiters
                       </li>
                       <li className="mt-4">
-                        Anhang 3 – Genehmigte Unterauftragsverarbeiter
+                        <strong>Anhang 3</strong><br/> Genehmigte Unterauftragsverarbeiter
                       </li>
                     </ul>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">
                     Annex 1 - Beschreibung der Verarbeitungstätigkeiten, Zwecke, verarbeiteten personenbezogenen Daten und besonderen Kategorien personenbezogener Daten
                   </summary>
                   <div className="mt-2 space-y-3">
@@ -378,7 +378,7 @@ export default function DataProcessingAgreement() {
                                 <li>Metadaten (z. B. Titel, Beschriftungen)</li>
                                 <li>Freiwillig bereitgestellte Kontaktdaten & Textantworten</li>
                                 <li>Leistungsanalysen, die dem Creator zugeordnet sind</li>
-                                <li>Inhalte, die besondere Kategorien personenbezogener Daten offenbaren können (z. B. Gesundheitsdaten, ethnische Herkunft)</li>
+                                <li>Inhalte, die besondere Kategorien personenbezogener Daten offenbaren können (z. B. Gesundheitsdaten, ethnische Herkunft), sofern im Inhalt sichtbar oder hörbar</li>
                               </ul>
                             </td>
                           </tr>
@@ -388,7 +388,7 @@ export default function DataProcessingAgreement() {
                               <ul className="list-disc pl-5 space-y-1">
                                 <li>Creators, die Inhalte über die Plattform 82DASH hochladen</li>
                                 <li>Personen, die in den Inhalten dargestellt sind</li>
-                                <li>Kundenunternehmen-Vertreter:innen (für Support- oder Kontozwecke, in begrenztem Umfang)</li>
+                                <li>-	Kundenunternehmen-Vertreter:innen (für Support- oder Kontozwecke, in begrenztem und nebensächlichem Umfang)</li>
                               </ul>
                             </td>
                           </tr>
@@ -399,22 +399,22 @@ export default function DataProcessingAgreement() {
                             </td>
                           </tr>
                           <tr>
-                            <th className="text-left p-3 font-medium">Kategorien von Empfängern</th>
+                            <th className="text-left p-3 font-medium">Kategorien von Empfängern (an die personenbezogene Daten übermittelt wurden oder werden können)</th>
                             <td className="p-3">
                               <ul className="list-disc pl-5 space-y-1">
-                                <li>Kundenunternehmen (Verantwortliche), die Inhalte über 82DASH erhalten</li>
-                                <li>Unterauftragsverarbeiter für Infrastruktur, Analyse oder Support</li>
+                                <li>-	Kundenunternehmen (Verantwortliche), die nutzergenerierte Inhalte über die Plattform 82DASH erhalten</li>
+                                <li>-	Unterauftragsverarbeiter, die Infrastruktur-, Analyse- oder Supportleistungen erbringen (gemäss DPA oder Subunternehmer-Anhang aufgeführt)</li>
                               </ul>
                             </td>
                           </tr>
                           <tr className="bg-gray-50">
-                            <th className="text-left p-3 font-medium">Datenübermittlung in Drittländer</th>
+                            <th className="text-left p-3 font-medium">Datenübermittlung in Drittländer (ausserhalb der EU)</th>
                             <td className="p-3">
-                              Ja – Gilt, wenn personenbezogene Daten an Unterauftragsverarbeiter oder Infrastruktur-Anbieter mit Sitz ausserhalb der EU/des EWR übermittelt werden (z. B. Cloud-Anbieter in den USA).
+                              Ja – Gilt, wenn personenbezogene Daten an Unterauftragsverarbeiter oder Infrastruktur-Anbieter mit Sitz ausserhalb der EU/des EWR übermittelt werden (z. B. Cloud-Anbieter mit Sitz in den USA)
                             </td>
                           </tr>
                           <tr>
-                            <th className="text-left p-3 font-medium">Schutzmassnahmen bei Übermittlungen</th>
+                            <th className="text-left p-3 font-medium">Schutzmassnahmen bei Übermittlungen in Drittländer</th>
                             <td className="p-3">
                               - Standardvertragsklauseln (SCCs), genehmigt von der Europäischen Kommission<br />
                               - Datenverarbeitungsverträge mit Unterauftragsverarbeitern<br />
@@ -424,7 +424,7 @@ export default function DataProcessingAgreement() {
                           <tr className="bg-gray-50">
                             <th className="text-left p-3 font-medium">Häufigkeit der Übermittlung</th>
                             <td className="p-3">
-                              Fortlaufend – im Rahmen des regulären Betriebs und der Funktionalität der Plattform 82DASH, insbesondere für globalen Zugriff, Hosting oder Analysen.
+                              Fortlaufend – im Rahmen des regulären Betriebs und der Funktionalität der Plattform 82DASH, insbesondere im Hinblick auf globalen Zugriff, Hosting oder Analysen
                             </td>
                           </tr>
                           <tr>
@@ -438,11 +438,11 @@ export default function DataProcessingAgreement() {
                       </table>
                     </div>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">
-                    Annex 2 – Technische und organisatorische Sicherheitsmassnahmen des Auftragsverarbeiters
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">
+                    Annex 2 - Technische und organisatorische <br/>Sicherheitsmassnahmen des Auftragsverarbeiters
                   </summary>
                   <div className="mt-2 space-y-6">
                     <div>
@@ -526,17 +526,17 @@ export default function DataProcessingAgreement() {
                       </ul>
                     </div>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">
                     Annex 3 – Genehmigte Unterauftragsverarbeiter
                   </summary>
                   <div className="mt-2 text-gray-700 leading-relaxed">
                     Für eine vollständige und aktuelle Liste unserer Unterauftragsverarbeiter besuchen Sie bitte unsere&nbsp;
                     Liste der Unterauftragsverarbeiter.
                   </div>
-                </details>
+                </div>
 
 
 
