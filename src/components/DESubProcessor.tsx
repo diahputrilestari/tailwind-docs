@@ -26,14 +26,14 @@ export default function DESubProcessor() {
                       <td className="px-4 py-2 border">Vercel</td>
                       <td className="px-4 py-2 border">Hosting der Next.js-Frontend- und API-Routen; Speicherung von Server-Logs</td>
                       <td className="px-4 py-2 border">IP-Adressen, HTTP-Header, sämtliche an die API gesendeten Anfragen/Antworten</td>
-                      <td className="px-4 py-2 border">EU and USA</td>
+                      <td className="px-4 py-2 border">EU und USA</td>
                       <td className="px-4 py-2 border text-blue-600 underline"><a href="https://vercel.com/legal/dpa" target="_blank">link</a></td>
                     </tr>
                     <tr className="bg-gray-50">
                       <td className="px-4 py-2 border">Supabase</td>
                       <td className="px-4 py-2 border">PostgreSQL-Datenbankmanagement, Authentifizierungsdienste und Objektspeicherung für Nutzer-Uploads</td>
                       <td className="px-4 py-2 border">Namen, E-Mail-Adressen, Passwort-Hashes, Session-Tokens, Profildaten, Bilder</td>
-                      <td className="px-4 py-2 border">EU and USA</td>
+                      <td className="px-4 py-2 border">EU und USA</td>
                       <td className="px-4 py-2 border text-blue-600 underline"><a href="https://supabase.com/legal/dpa" target="_blank">link</a></td>
                     </tr>
                     <tr className="bg-white">
@@ -47,7 +47,7 @@ export default function DESubProcessor() {
                       <td className="px-4 py-2 border">SendGrid (Twilio)</td>
                       <td className="px-4 py-2 border">Transaktionale E-Mail-Zustellung (z. B. Anmeldung, Passwort-Reset, Benachrichtigungen, Erinnerungen, Rabattcodes)</td>
                       <td className="px-4 py-2 border">E-Mail-Adresse des Empfängers, Nachrichteninhalte, IP-Adresse, User-Agent für Klick-/Öffnungs-Tracking</td>
-                      <td className="px-4 py-2 border">EU and USA</td>
+                      <td className="px-4 py-2 border">EU und USA</td>
                       <td className="px-4 py-2 border text-blue-600 underline"><a href="https://www.twilio.com/en-us/legal/data-protection-addendum" target="_blank">link</a></td>
                     </tr>
                     <tr className="bg-white">
@@ -58,7 +58,7 @@ export default function DESubProcessor() {
                       <td className="px-4 py-2 border text-blue-600 underline"><a href="https://openai.com/policies/data-processing-addendum/" target="_blank">link</a></td>
                     </tr>
                     <tr className="bg-gray-50">
-                      <td className="px-4 py-2 border">Bunny.net</td>
+                      <td className="px-4 py-2 border text-blue-600 underline"><a href="https://bunny.net/">Bunny.net</a></td>
                       <td className="px-4 py-2 border">Video-Hosting und -Verarbeitung</td>
                       <td className="px-4 py-2 border">Hochgeladene Videos (können erkennbare Gesichter oder sensible Inhalte enthalten)</td>
                       <td className="px-4 py-2 border">EU / Global CDN</td>
@@ -70,11 +70,6 @@ export default function DESubProcessor() {
             </div>
           </div>
 
-          {/* <footer className="bg-gray-50 border-t border-gray-200 px-6 py-6 sm:px-8">
-            <p className="text-sm text-gray-500 text-center">
-              These terms of service are effective as of the date last updated above and supersede all prior versions.
-            </p>
-          </footer> */}
         </article>
       </div>
     </div>
