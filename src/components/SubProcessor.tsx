@@ -58,7 +58,7 @@ export default function SubProcessor() {
                       <td className="px-4 py-2 border text-blue-600 underline"><a href="https://openai.com/policies/data-processing-addendum/" target="_blank">link</a></td>
                     </tr>
                     <tr className="bg-gray-50">
-                      <td className="px-4 py-2 border">Bunny.net</td>
+                      <td className="px-4 py-2 border text-blue-600 underline"><a href="https://bunny.net/">Bunny.net</a></td>
                       <td className="px-4 py-2 border">Video hosting and processing</td>
                       <td className="px-4 py-2 border">Videos you upload (may contain identifiable faces or sensitive content)</td>
                       <td className="px-4 py-2 border">EU / Global CDN</td>

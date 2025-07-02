@@ -26,7 +26,7 @@ export default function DataProcessingAgreement() {
 
           </header>
 
-          <div className="px-6 py-8 sm:px-8 sm:py-10">
+          <div className="px-6 py-8 sm:px-8 sm:py-10 text-justify">
             <div className="prose prose-lg prose-gray max-w-none prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6 prose-li:text-gray-700 prose-li:mb-3 prose-li:leading-relaxed prose-strong:text-gray-900 prose-a:text-blue-600 hover:prose-a:text-blue-800 prose-a:no-underline hover:prose-a:underline prose-ul:mb-6 prose-ul:mt-4">
               <h1 className="text-3xl text-gray-900 sm:text-4xl text-center">Preamble</h1>
               <section className="mb-8 mt-4">
@@ -48,29 +48,29 @@ export default function DataProcessingAgreement() {
               </section>
 
               <section className="mb-8">
-                  <details className="mt-4 space-y-4">
-                    <summary className="text-lg font-semibold text-gray-800">1. Agreement to Terms</summary>
+                  <div className="mt-4 space-y-4">
+                    <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">1. Agreement to Terms</summary>
                     <div className="mt-2 space-y-3">
                       <p>By electronically accepting this DPA (e.g., by checking a box or clicking “I Agree”), the Controller acknowledges and agrees to be bound by its terms. This DPA forms an integral part of the Main Contract between the Parties and governs the processing of personal data under applicable data protection law, particularly Regulation (EU) 2016/679 (“GDPR”).</p>
                     </div>
-                  </details>
-                  <details className="mt-4 space-y-4">
-                    <summary className="text-lg font-semibold text-gray-800">2. Definitions of Terms</summary>
+                  </div>
+                  <div className="mt-4 space-y-4">
+                    <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">2. Definitions of Terms</summary>
                     <div className="mt-2 space-y-3">
-                      <ul className="list-disc pl-6">
-                      <li><strong>EU Data Protection Law</strong>: General Data Protection Regulation (Regulation (EU) 2016/679, “GDPR”) and any applicable implementing or supplementary data protection laws of EU Member States.</li>
-                      <li><strong>Data Controller</strong>: Entity determining the purposes and means of personal data processing (Art. 4(7) GDPR).</li>
-                      <li><strong>Data Processor</strong>: Entity processing data on behalf of the controller (Art. 4(8) GDPR).</li>
-                      <li><strong>Data Subject</strong>: Identified or identifiable person whose data is processed (Art. 4(1) GDPR).</li>
-                      <li><strong>Personal Data</strong>: Any information relating to an identifiable person (Art. 4(1) GDPR).</li>
-                      <li><strong>GDPR</strong>: Regulation (EU) 2016/679 on personal data protection and free movement.</li>
-                      <li>Other undefined terms follow the definitions in the GDPR.</li>
-                      <li>In case of conflict between definitions in this DPA and the GDPR, GDPR definitions shall prevail.</li>
-                    </ul>
+                      <ol className="list-decimal pl-6">
+                      <li className="mt-4"><strong>EU Data Protection Law</strong>: shall mean the General Data Protection Regulation (Regulation (EU) 2016/679, “GDPR”) and any applicable implementing or supplementary data protection laws of EU Member States as applicable to the parties</li>
+                      <li className="mt-4"><strong>Data Controller</strong>:means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data, as defined in Article 4(7) GDPR.</li>
+                      <li className="mt-4"><strong>Data Processor</strong>: means a natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller, as defined in Article 4(8) GDPR.</li>
+                      <li className="mt-4"><strong>Data Subject</strong>: Data Subject" means an identified or identifiable natural person whose personal data is processed by the controller or processor, as defined in Article 4(1) GDPR.</li>
+                      <li className="mt-4"><strong>Personal Data</strong>: means any information relating to an identified or identifiable natural person (“data subject”), as defined in Article 4(1) GDPR.</li>
+                      <li className="mt-4"><strong>GDPR</strong>: refers to Regulation (EU) 2016/679 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data.</li>
+                      <li className="mt-4">Terms not otherwise explicitly defined in this DPA shall have the meanings attributed to them under the GDPR</li>
+                      <li className="mt-4">In the event of a conflict between the definitions used in this DPA and those in the GDPR, the definitions of the GDPR shall prevail.</li>
+                    </ol>
                     </div>
-                  </details>
-                  <details className="mt-4 space-y-4">
-                    <summary className="text-lg font-semibold text-gray-800">3. Subject Matter</summary>
+                  </div>
+                  <div className="mt-4 space-y-4">
+                    <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">3. Subject Matter</summary>
                     <div className="mt-2 space-y-3">
                       <ol className="pl-6 list-decimal">
                       <li className="mt-4">The Processor provides a content delivery and user-generated content platform (82DASH) through which personal data, uploaded by creators, is transferred to the Controller. The Processor processes such personal data exclusively on behalf of the Controller and strictly in accordance with the Controller’s documented instructions. The scope, nature, and purposes of the processing are defined in the Main Contract and further detailed in <strong>Annex 1</strong> to this DPA</li>
@@ -79,9 +79,9 @@ export default function DataProcessingAgreement() {
                       <li className="mt-4">The duration of this DPA is linked to the duration of the Main Contract, unless otherwise specified in this DPA or required by applicable data protection law (e.g., retention obligations or data return/deletion provisions upon termination).</li>
                     </ol>
                     </div>
-                  </details>
-                  <details className="mt-4 space-y-4">
-                    <summary className="text-lg font-semibold text-gray-800">4. Rights of Instruction</summary>
+                  </div>
+                  <div className="mt-4 space-y-4">
+                    <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">4. Rights of Instruction</summary>
                     <div className="mt-2 space-y-3">
                       <ol className="pl-6 list-decimal">
                         <li className="mt-4">The Processor shall collect, process, or use personal data solely within the scope of the Main Contract and in strict accordance with the documented instructions of the Controller. This includes, in particular, any transfers of personal data to a third country or to an international organisation.</li>
@@ -91,46 +91,47 @@ export default function DataProcessingAgreement() {
                         <li className="mt-4">If the Processor considers an instruction from the Controller to be unclear, inconsistent, or in violation of EU Data Protection Law, the Processor shall immediately notify the Controller without undue delay. The Processor may suspend the execution of such instruction until it is either confirmed or amended by the Controller. The Processor must reject the execution of any instruction that is manifestly unlawful.</li>
                       </ol>
                     </div>
-                  </details>
-                  <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">5. Type of Personal Data Processed, Group of Data Subjects</summary>
+                  </div>
+                  <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">5. Type of Personal Data Processed, Group of Data Subjects</summary>
                   <div className="mt-2 space-y-3">
                     <ol className="pl-6 list-decimal">
                       <li className="mt-4">In the performance of the Main Contract, the Processor shall have access to and process only the personal data provided or made available by content creators through 82DASH platform, solely for the purpose of enabling the Controller to use such content in accordance with the agreed services.</li>
-                      <li className="mt-4">The categories of personal data and data subjects concerned are specified in Annex 1 to this DPA. These typically include identifying information (e.g., name, likeness, social media handle, audio/video content) voluntarily submitted by creators and may, in certain cases, include data falling under special categories as defined in Article 9 GDPR, if expressly provided by the data subject.</li>
-                      <li className="mt-4">The Processor shall not process any personal data beyond the categories listed in Annex 1 unless expressly instructed in writing by the Controller.</li>
+                      <li className="mt-4">The categories of personal data and data subjects concerned are specified in <strong>Annex 1</strong> to this DPA. These typically include identifying information (e.g., name, likeness, social media handle, audio/video content) voluntarily submitted by creators and may, in certain cases, include data falling under special categories as defined in Article 9 GDPR, if expressly provided by the data subject.</li>
+                      <li className="mt-4">The Processor shall not process any personal data beyond the categories listed in <strong>Annex 1</strong> unless expressly instructed in writing by the Controller.</li>
                     </ol>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">6. Security Measures of the Processor</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">6. Security Measures of the Processor</summary>
                   <div className="mt-2 space-y-3">
                     <ol className="pl-6 list-decimal">
                       <li className="mt-4">The Processor, in its role as a platform facilitating the upload and transfer of user-generated content from creators to client companies (Controllers), is obligated to comply with applicable data protection laws, including the GDPR.</li>
                       <li className="mt-4">The Processor is responsible for ensuring that its internal organisational structure and operations are designed and maintained to meet the requirements of EU Data Protection Law. In accordance with Article 32 GDPR, the Processor shall implement appropriate technical and organizational measures to protect the personal data it processes. These shall include, at a minimum:
-                        <ul className="list-disc pl-6">
-                          <li>Measures for the pseudonymisation and/or encryption of personal data, where appropriate;</li>
-                          <li>Measures to ensure the ongoing confidentiality, integrity, availability, and resilience of processing systems and services;</li>
-                          <li>Measures to ensure the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident;</li>
-                          <li>A process for regularly testing, assessing, and evaluating the effectiveness of technical and organisational measures to ensure processing security.</li>
-                        </ul>
+                        <ol className="list-lower-alpha list-inside pl-6 space-y-2">
+                          <li> Measures for the pseudonymisation and/or encryption of personal data, where appropriate;</li>
+                          <li> Measures to ensure the ongoing confidentiality, integrity, availability, and resilience of processing systems and services;</li>
+                          <li> Measures to ensure the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident;</li>
+                          <li> A process for regularly testing, assessing, and evaluating the effectiveness of technical and organisational measures to ensure processing security.</li>
+                        </ol>
                       </li>
                       <li className="mt-4">The technical and organisational measures currently implemented by the Processor are detailed in Annex 2 to this DPA. The Processor may update or modify such measures from time to time, provided that such updates do not result in a lower level of security than those contractually agreed upon.</li>
                       <li className="mt-4">The Processor shall ensure that any personnel (including employees, contractors, or agents) authorised to process personal data are subject to appropriate confidentiality obligations in accordance with Article 28(3)(b) GDPR. The Processor shall ensure that such obligations are contractually imposed and effectively enforced. Upon request, the Controller shall be provided with appropriate evidence of these confidentiality undertakings.</li>
                     </ol>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">7. Information Duties of the Processor</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">7. Information Duties of the Processor</summary>
                   <div className="mt-2 space-y-3">
                     <ol className="pl-6 list-decimal">
                       <li className="mt-4">In the event of a personal data breach, including any security incidents related to the content or personal data processed on behalf of the Controller, whether by 82DASH, its personnel, or its authorised subprocessors, The Processor shall notify the Controller in writing without undue delay and, in any case, no later than 48 hours after becoming aware of such an incident. This also applies to any audits or investigations conducted by a supervisory authority that are directly related to processing activities performed on behalf of the Controller.
-                        <ul className="list-disc pl-6">
-                          <li>A description of the nature of the breach, including, where possible, the categories and approximate number of data subjects concerned, and the categories and approximate number of personal data records affected;</li>
-                          <li>A description of the measures taken or proposed by the Processor to address the breach and, where appropriate, to mitigate its possible adverse effects.</li>
-                        </ul>
+                        <p className="mt-2">The notification shall include, at minimum:</p>
+                        <ol className="list-lower-alpha list-inside pl-6 space-y-2">
+                          <li> A description of the nature of the breach, including, where possible, the categories and approximate number of data subjects concerned, and the categories and approximate number of personal data records affected;</li>
+                          <li> A description of the measures taken or proposed by the Processor to address the breach and, where appropriate, to mitigate its possible adverse effects.</li>
+                        </ol>
                       </li>
                       <li className="mt-4">The Processor shall immediately implement necessary measures to secure the data and minimise any potential harm to the data subjects.</li>
                       <li className="mt-4">The Processor shall, upon request or discovery, provide the Controller with updates or relevant information when the Controller’s data has been affected by a breach as described above.</li>
@@ -140,10 +141,10 @@ export default function DataProcessingAgreement() {
                       <li className="mt-4">The Processor shall provide appropriate assistance to the Controller in compiling and maintaining the Controller’s own records of processing activities under Article 30(1) GDPR by supplying relevant information in a timely and appropriate manner.</li>
                     </ol>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">8. Roles and Responsibilities</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">8. Roles and Responsibilities</summary>
                   <div className="mt-2 space-y-3">
                     <h4 className="font-semibold">Role as Data Processor:</h4>
                     <ol className="pl-6 list-decimal">
@@ -173,10 +174,10 @@ export default function DataProcessingAgreement() {
                     <p>As an Independent Data Controller, the Processor is responsible for ensuring that it complies with all applicable data protection laws, including the GDPR, and that it provides appropriate notices to data subjects about how their data is being used for these purposes. The Processor will also handle any data subject rights requests directly related to its own processing activities</p>
 
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">9. Use of Sub-processors</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">9. Use of Sub-processors</summary>
                   <div className="mt-2 space-y-3">
                     <ol className="list-decimal pl-6">
                       <li>The Processor shall carry out the agreed services, or the specific parts thereof as listed in <strong>Annex 3</strong>, with the assistance of the subprocessors identified therein. The Processor is permitted to engage additional subprocessors in connection with the performance of its contractual obligations. The Controller shall be informed without undue delay of the intended addition or replacement of subprocessors by email to the address provided by the Controller.</li>
@@ -184,42 +185,42 @@ export default function DataProcessingAgreement() {
                       <li>If a subprocessor is located in a third country outside the European Economic Area, the Processor must ensure that such subprocessor provides adequate safeguards in accordance with Articles 44 et seq. GDPR. This includes, where necessary, the execution of Standard Contractual Clauses and the implementation of supplementary measures to ensure an essentially equivalent level of protection. The Controller retains the right to object to the engagement or replacement of subprocessors in accordance with Article 28(2) GDPR.</li>
                     </ol>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">10. International Data Transfers</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">10. International Data Transfers</summary>
                   <div className="mt-2 space-y-3">
                     <p>The Controller and the Processor acknowledge that:</p>
                     <ol className="list-decimal pl-6">
-                      <li>If  the Processor or Controller is located outside the EEA or processes personal data outside the EEA, any transfer of personal data must comply with the requirements of Articles 44 ff. of the GDPR. The Controller ensures that such transfers will be governed by the EU Commission’s Standard Contractual Clauses (Commission Implementing Decision (EU) 2021/914 of 04 June 2021), as outlined in Annex 4, and any supplementary measures necessary to ensure compliance with these clauses.</li>
+                      <li>If  the Processor or Controller is located outside the EEA or processes personal data outside the EEA, any transfer of personal data must comply with the requirements of Articles 44 ff. of the GDPR. The Controller ensures that such transfers will be governed by the EU Commission’s Standard Contractual Clauses (Commission Implementing Decision (EU) 2021/914 of 04 June 2021), as outlined in Annex 4, and any supplementary measures necessary to ensure compliance with these clauses</li>
                       <li>In the event of a conflict between the provisions of this DPA and the Standard Contractual Clauses, the terms of the Standard Contractual Clauses shall take precedence.</li>
                       <li>In the event of a revised version of the Standard Contractual Clauses being published, both parties commit to ensuring promptly accept the updated terms to maintain compliance with GDPR regarding international data transfers to third countries</li>
-                      <li>4.	If alternative transfer mechanisms under Articles 44 ff. of the GDPR become available, both parties may implement these additional mechanisms, alongside the Standard Contractual Clauses, to ensure lawful data transfers.</li>
+                      <li>If alternative transfer mechanisms under Articles 44 ff. of the GDPR become available, both parties may implement these additional mechanisms, alongside the Standard Contractual Clauses, to ensure lawful data transfers.</li>
                     </ol>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">11. Requests and Rights of Data Subjects</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">11. Requests and Rights of Data Subjects</summary>
                   <div className="mt-2 space-y-3">
                     <p>The Processor shall support the Controller to the extent commercially reasonable with appropriate technical and organisational measures to fulfill its obligations under Articles 12-23 and 32-36 of the GDPR, particularly with regard to user-generated content.</p>
                     <p>If a data subject asserts any rights, such as the right to access personal data under Article 15, rectification under Article 16, or deletion under Article 17, directly against the Processor concerning their user-generated content, the Processor shall contact and notify the Controller immediately, so the Controller can manage and respond to such requests as required by the GDPR.</p>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">12. Controller’s Responsibilities Upon Termination</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">12. Controller’s Responsibilities Upon Termination</summary>
                   <div className="mt-2 space-y-3">
                     <p>This DPA remains in effect as long as the Controller continues to use the Processor’s platform services. Upon termination of the Controller’s account:</p>
                     <ol className="list-decimal pl-6">
-                      <li>This DPA remains in effect as long as the Controller continues to use the Processor’s platform services. Upon termination of the Controller’s account:.</li>
+                      <li>The Processor will delete or anonymise all personal data processed on behalf of the Controller, unless the Processor is legally obligated to retain the data</li>
                       <li>The Controller is responsible for ensuring that any personal data transferred to it by the Processor prior to termination is retained, managed, and disposed of in accordance with applicable data protection laws. This includes ensuring compliance with any ongoing obligations for data retention or further processing, as required by law or the Controller’s own operational needs.</li>
                     </ol>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">13. Final Clauses</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">13. Final Clauses</summary>
                   <div className="mt-2 space-y-3">
                     <ol className="list-decimal pl-6">
                       <li>This DPA shall remain in effect for the duration of the Main Contract, unless terminated earlier in accordance with applicable law or the provisions herein. Upon termination, the Processor shall, at the Controller’s choice, delete or return all personal data, unless legal obligations require otherwise.</li>
@@ -227,30 +228,22 @@ export default function DataProcessingAgreement() {
                       <li>If any provision of this DPA is or becomes partially or wholly invalid or unenforceable, the validity of the remaining provisions shall not be affected</li>
                       <li>This DPA is governed by the laws applicable to the Processor, in accordance with the jurisdiction of the Processor’s registered seat. The exclusive place of jurisdiction for any disputes arising in connection with this DPA shall be the jurisdiction of the Processor's registered seat.</li>
                       <li>If the personal data derived from user-generated content that the Processor handles on behalf of the Controller is at risk due to third-party actions (such as seizure, confiscation, legal claims), insolvency, composition proceedings, or any other events that could compromise its confidentiality or availability, the Processor shall notify the Controller without undue delay.</li>
-                      <li>6.	This DPA is concluded electronically. No physical signature is required. By accepting this DPA via checkbox, click-wrap, or other digital acceptance method, the Controller confirms that it has read, understood, and agreed to be legally bound by its terms.</li>
+                      <li>This DPA is concluded electronically. No physical signature is required. By accepting this DPA via checkbox, click-wrap, or other digital acceptance method, the Controller confirms that it has read, understood, and agreed to be legally bound by its terms.</li>
                     </ol>
                   </div>
-                </details>
+                </div>
 
                   <h1 className="mt-4 text-3xl font-semibold text-gray-900 sm:text-2xl">Annexes </h1>
-                  <ul className="pl-6">
+                  <ul>
                     <li>Annex 1 - Description of processing activities, purposes, processed personal data and special categories of personal data</li>
                     <li className="mt-4">Annex 2 - Technical and Organisational Measures of the Processor</li>
                     <li className="mt-4">Annex 3 - Approved Subprocessors</li>
                   </ul>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">Annex 1 - Description of processing activities, purposes, processed personal data and special categories of personal data</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">Annex 1 - Description of processing activities, purposes, processed personal data and special categories of personal data</summary>
                   <div className="mt-2 space-y-3">
                     <p>Within the context of data processing, the following processing of data is carried out on behalf of the Controller:</p>
-                    <ol className="list-decimal pl-6">
-                      <li>This DPA shall remain in effect for the duration of the Main Contract, unless terminated earlier in accordance with applicable law or the provisions herein. Upon termination, the Processor shall, at the Controller’s choice, delete or return all personal data, unless legal obligations require otherwise.</li>
-                      <li>This DPA constitutes the entire agreement between the Parties concerning its subject matter and supersedes all prior agreements or understandings. Any changes must be made in writing and agreed upon by both Parties (electronic communication suffices).</li>
-                      <li>If any provision of this DPA is or becomes partially or wholly invalid or unenforceable, the validity of the remaining provisions shall not be affected</li>
-                      <li>This DPA is governed by the laws applicable to the Processor, in accordance with the jurisdiction of the Processor’s registered seat. The exclusive place of jurisdiction for any disputes arising in connection with this DPA shall be the jurisdiction of the Processor's registered seat.</li>
-                      <li>If the personal data derived from user-generated content that the Processor handles on behalf of the Controller is at risk due to third-party actions (such as seizure, confiscation, legal claims), insolvency, composition proceedings, or any other events that could compromise its confidentiality or availability, the Processor shall notify the Controller without undue delay.</li>
-                      <li>6.	This DPA is concluded electronically. No physical signature is required. By accepting this DPA via checkbox, click-wrap, or other digital acceptance method, the Controller confirms that it has read, understood, and agreed to be legally bound by its terms.</li>
-                    </ol>
                   </div>
                    <div className="mt-4 overflow-x-auto">
                       <table className="min-w-full border border-gray-300 text-sm">
@@ -291,46 +284,46 @@ export default function DataProcessingAgreement() {
                               <ul className="list-disc pl-5 space-y-1">
                                 <li>Creators uploading content via the 82DASH platform</li>
                                 <li>Individuals featured in the content</li>
-                                <li>Client company representatives (limited, for support/account use)</li>
+                                <li>Client company representatives (for support or account purposes, limited and incidental)</li>
                               </ul>
                             </td>
                           </tr>
                           <tr className="bg-gray-50">
                             <th className="text-left p-3 font-medium">Sensitive Data Transferred?</th>
-                            <td className="p-3">Yes – Special category data may be processed if it is visible or audible in the content (e.g. health status, ethnicity, religious symbols).</td>
+                            <td className="p-3">Yes – Special category data may be processed if it is visible or audible in the user-generated content (e.g. health status, ethnicity, religious symbols). This is incidental and not explicitly collected by 82DASH but can occur based on content submitted by users.</td>
                           </tr>
                           <tr>
-                            <th className="text-left p-3 font-medium">Categories of Recipients</th>
+                            <th className="text-left p-3 font-medium">Categories of recipients (to whom the personal datahave been or will be disclosed)</th>
                             <td className="p-3">
                               <ul className="list-disc pl-5 space-y-1">
-                                <li>Client companies (Controllers)</li>
-                                <li>Sub-processors (infrastructure, analytics, support)</li>
+                                <li>Client companies (Controllers) who receive user-submitted content via the 82DASH platform</li>
+                                <li>-	Sub-processors providing infrastructure, analytics, or support services (listed in the DPA or Subprocessor Annex)</li>
                               </ul>
                             </td>
                           </tr>
                           <tr className="bg-gray-50">
-                            <th className="text-left p-3 font-medium">Transfer to Third Countries</th>
-                            <td className="p-3">Yes – For sub-processors or infrastructure outside EU/EEA (e.g. US cloud providers).</td>
+                            <th className="text-left p-3 font-medium">Transfer to 3rd countries:(outside the EU)</th>
+                            <td className="p-3">Yes – Applies if personal data is transferred to sub-processors or infrastructure providers located outside the EU/EEA (e.g. U.S.-based cloud providers)</td>
                           </tr>
                           <tr>
-                            <th className="text-left p-3 font-medium">Safeguards for Transfers</th>
-                            <td className="p-3">Standard Contractual Clauses (SCCs), DPAs, and technical/organisational measures.</td>
+                            <th className="text-left p-3 font-medium">Safeguards for transfers to third countries:</th>
+                            <td className="p-3">Standard Contractual Clauses (SCCs) as approved by the European Commission, Data Processing Agreements with sub-processors, and supplementary technical/organisational measures where required</td>
                           </tr>
                           <tr className="bg-gray-50">
-                            <th className="text-left p-3 font-medium">Frequency of Transfer</th>
-                            <td className="p-3">Continuous – as part of the regular operation of the 82DASH platform.</td>
+                            <th className="text-left p-3 font-medium">Frequency of the transfer</th>
+                            <td className="p-3">Continuous – as part of the regular operation and functionality of the 82DASH platform, especially for global access, hosting, or analytics</td>
                           </tr>
                           <tr>
                             <th className="text-left p-3 font-medium">Deletion Period</th>
-                            <td className="p-3">For the duration of the Main Contract. Data will be deleted or returned upon termination unless required otherwise by law or agreement.</td>
+                            <td className="p-3">For the duration of the Main Contract between Controller and Processor.Data will be deleted or returned upon termination, unless retention is required by law or otherwise agreed in writing.</td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">Annex 2 – Technical and Organizational Measures</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">Annex 2 – Technical and Organisational Security Measures of the Processor:</summary>
                   <div className="mt-2 space-y-6">
                     <div>
                       <h3 className="font-semibold">1. Access Control to Premises and Facilities</h3>
@@ -392,7 +385,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">7. Availability Control</h3>
+                      <h3 className="font-semibold">7. Disclosure Control</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Data recovery procedures in place for system interruptions</li>
                         <li>Monitoring systems to ensure uptime and fault reporting</li>
@@ -413,14 +406,14 @@ export default function DataProcessingAgreement() {
                       </ul>
                     </div>
                   </div>
-                </details>
+                </div>
 
-                <details className="mt-4 space-y-4">
-                  <summary className="text-lg font-semibold text-gray-800">Annex 3 – Approved Subprocessors</summary>
+                <div className="mt-4 space-y-4">
+                  <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">Annex 3 – Approved Subprocessors</summary>
                   <div className="mt-2 text-gray-700 leading-relaxed">
-                    For a full and up-to-date list of our subprocessors, please refer to our <a href="#" className="text-blue-600 hover:underline">Subprocessor List</a>.
+                    For a full and up-to-date list of our subprocessors, please refer to our Subprocessor List.
                   </div>
-                </details>
+                </div>
 
 
               </section>

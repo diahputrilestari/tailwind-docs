@@ -11,3 +11,7 @@
      small {
         left: calc(50% - 50px);
      }
+
+     .list-lower-alpha {
+      list-style-type: lower-alpha;
+      }
