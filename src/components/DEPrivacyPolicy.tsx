@@ -46,7 +46,7 @@ export default function DEPrivacyPolicy() {
                   <div>
                     <h3 className="font-semibold">1.1 Welche personenbezogenen Daten wir erfassen und wie</h3>
                     <p>Wir erfassen nur personenbezogene Daten, die notwendig sind, um unsere Dienste bereitzustellen und zu verbessern.
-                      Die Art der erfassten Daten hängt von Ihrer Beziehung zu uns ab:
+                      <br/>Die Art der erfassten Daten hängt von Ihrer Beziehung zu uns ab:
                     </p>
                   </div>
 
@@ -64,11 +64,11 @@ export default function DEPrivacyPolicy() {
                       <li>Zustimmungserklärungen, Einwilligungsprotokolle und Lizenzvereinbarungen (zur Dokumentation Ihrer Zustimmung zur Inhaltsnutzung)</li>
                     </ul>
 
-                    <p className="mt-4"><strong>Warum wir diese Daten erfassen:</strong></p>
+                    <p className="mt-4">Warum wir diese Daten erfassen:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>Um Ihre Teilnahme an Kampagnen und die Einreichung von Inhalten unter einer gültigen Lizenz zu ermöglichen</li>
                       <li>Zur Überprüfung von Rechten, Einwilligungen und der Berechtigung für Belohnungen</li>
-                      <li>Zur sicheren Übertragung lizenzierter Inhalte an Kundenunternehmen (die die Rolle des Datenverantwortlichen übernehmen)</li>
+                      <li>Zur sicheren Übertragung lizenzierter Inhalte an Kundenunternehmen(die die Rolle des Datenverantwortlichen übernehmen)</li>
                       <li>Zur Unterstützung von Betroffenenrechten gemäss DSGVO (z. B. Auskunft, Berichtigung, Widerruf der Einwilligung)</li>
                       <li>Zur Erfüllung vertraglicher und gesetzlicher Verpflichtungen</li>
                       <li>Zur Analyse der Nutzung, Verbesserung unserer Dienste, Unterstützung der Produktentwicklung und Optimierung der Systemleistung</li>
@@ -78,7 +78,7 @@ export default function DEPrivacyPolicy() {
                       <li>Zur Sicherstellung der rechtlichen Konformität, einschliesslich der Benachrichtigung von Unternehmen über Betroffenenanfragen von Creators (z. B. Einwilligungswiderruf oder Löschung)</li>
                     </ul>
 
-                    <p className="mt-4"><strong>Datenverarbeitung:</strong></p>
+                    <p className="mt-4">Datenverarbeitung:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>Ihre personenbezogenen Daten werden während des Lizenzzeitraums sicher von 82DASH gespeichert.</li>
                       <li>Anschliessend werden sie an das Unternehmen übertragen, das Ihre Inhalte lizenziert hat – dieses wird zum Datenverantwortlichen und übernimmt die Verantwortung für die Daten.</li>
@@ -98,7 +98,7 @@ export default function DEPrivacyPolicy() {
                       <li>Metadaten aus Drittanbieter-Integrationen (z. B. Meta Pixel, Klaviyo-Tracking)</li>
                     </ul>
 
-                    <p className="mt-4"><strong>Warum wir diese Daten erfassen:</strong></p>
+                    <p className="mt-4">Warum wir diese Daten erfassen:</p>
                     <ul className="list-disc pl-6 space-y-1 mt-4">
                       <li>Zur Einrichtung und Verwaltung von Unternehmenskonten</li>
                       <li>Zur Unterstützung bei der Erstellung und Durchführung von Kampagnen</li>
@@ -116,67 +116,61 @@ export default function DEPrivacyPolicy() {
                     <p className="mt-4 mb-2">
                       Soweit durch die DSGVO oder ähnliche Gesetze erforderlich, stützen wir uns auf folgende Rechtsgrundlagen:
                     </p>
+                    <p className="mt-2"><strong>Einwilligung:</strong> Wir stützen uns auf Ihre Einwilligung, wenn Sie der Nutzung Ihrer Daten für bestimmte Zwecke freiwillig zustimmen, z. B.:</p>
 
-                    <ul className="list-disc pl-6 space-y-2">
-                      <li>
-                        <strong>Einwilligung:</strong> Wir stützen uns auf Ihre Einwilligung, wenn Sie der Nutzung Ihrer Daten für bestimmte Zwecke freiwillig zustimmen, z. B.:
-                        <ul className="list-disc pl-6 mt-1 space-y-1">
-                          <li>Ermöglichung der Erstellung von Kampagnen und des Zugriffs auf Inhalte (sofern optional)</li>
-                          <li>Erhalt von Marketingmitteilungen</li>
-                          <li>Verwendung von Cookies und ähnlichen Technologien</li>
-                        </ul>
-                        <p className="mt-2">
-                          Sie können Ihre Einwilligung jederzeit widerrufen.
-                          82DASH erhebt oder verarbeitet keine besonderen Kategorien personenbezogener Daten im Sinne von Artikel 9 DSGVO (z. B. Daten zur rassischen oder ethnischen Herkunft, politischen Meinungen, religiösen Überzeugungen, Gesundheitsdaten oder sexuellen Orientierung) absichtlich.
-                        </p>
-                        <p className="mt-2">
-                          Als Plattform für nutzergenerierte Inhalte kann es jedoch vorkommen, dass Sie freiwillig Inhalte hochladen oder einreichen (z. B. Bilder, Videos, Texte oder Formularantworten), die solche sensiblen Daten enthalten. Mit dem Hochladen solcher Inhalte erkennen Sie an, dass diese Informationen freiwillig und mit Ihrer ausdrücklichen Einwilligung bereitgestellt werden.
-                        </p>
-                        <p className="mt-2">
-                          Falls besondere Kategorien von Daten verarbeitet werden, trifft 82DASH geeignete Schutzmassnahmen gemäss geltendem Datenschutzrecht, einschliesslich Zugriffsbeschränkungen und sicherer Verarbeitung.
-                        </p>
-                      </li>
-
-                      <li className="mt-4">
-                        <strong>Vertragserfüllung:</strong> Wenn Sie Inhalte auf der 82DASH-Plattform hochladen, gehen Sie mit uns einen Vertrag ein, wie in unseren <a href="#" className="text-blue-600 underline">Allgemeinen Geschäftsbedingungen</a> definiert. Wir verarbeiten Ihre personenbezogenen Daten zur Erfüllung dieses Vertrags, z. B.:
-                        <ul className="list-disc pl-6 mt-1 space-y-1">
-                          <li>Erstellung und Verwaltung Ihres Kontos</li>
-                          <li>Verwaltung Ihrer hochgeladenen Inhalte</li>
-                          <li>Verarbeitung und Lizenzierung eingereichter Inhalte</li>
-                          <li>Bereitstellung von Plattformfunktionen</li>
-                          <li>Bereitstellung von Kundensupport</li>
-                          <li>Versand von dienstbezogenen Mitteilungen</li>
-                          <li>Verwaltung von Belohnungen, sofern zutreffend</li>
-                          <li>Unterstützung unserer Kunden bei der Verwaltung ihrer lizenzierten Inhalte</li>
-                        </ul>
-                        <p className="mt-2">
-                          Hinweis: Wenn Sie Inhalte eingereicht haben, die an ein Kundenunternehmen lizenziert wurden, behalten Sie Ihre Rechte gemäss geltendem Datenschutzrecht (z. B. DSGVO). Inhalte, die bereits lizenziert und verbreitet wurden, können jedoch weiterhin vom Kunden gemäss der ursprünglichen Lizenzvereinbarung genutzt werden. In manchen Fällen ist es möglicherweise nicht möglich, diese vollständig von allen Kanälen oder Plattformen zu entfernen.
-                        </p>
-                      </li>
-
-                      <li className="mt-4">
-                        <strong>Berechtigtes Interesse:</strong> Wir verarbeiten Daten zur Wahrung unserer berechtigten Interessen, sofern diese nicht Ihre Grundrechte oder -freiheiten überwiegen. Dies umfasst:
-                        <ul className="list-disc pl-6 mt-1 space-y-1">
-                          <li>Sicherung unserer Plattform und Betrugsprävention</li>
-                          <li>Verbesserung der Nutzererfahrung und Dienste</li>
-                          <li>Nutzungsanalyse zur Entwicklung neuer Funktionen</li>
-                          <li>Kommunikation zu Plattformaktualisierungen oder Richtlinien</li>
-                        </ul>
-                      </li>
-
-                      <li className="mt-4">
-                        <strong>Gesetzliche Verpflichtung:</strong> Wir können Ihre Daten verarbeiten, um gesetzlichen Anforderungen nachzukommen, z. B.:
-                        <ul className="list-disc pl-6 mt-1 space-y-1">
-                          <li>Beantwortung rechtmässiger Anfragen von Behörden</li>
-                          <li>Einhaltung steuerlicher, gesellschaftsrechtlicher oder datenschutzrechtlicher Vorschriften</li>
-                          <li>Verwaltung und Verteidigung von Rechtsansprüchen</li>
-                        </ul>
-                      </li>
+                    <ul className="list-disc pl-6 mt-1 space-y-1">
+                      <li>Ermöglichung der Erstellung von Kampagnen und des Zugriffs auf Inhalte (sofern optional)</li>
+                      <li>Erhalt von Marketingmitteilungen</li>
+                      <li>Verwendung von Cookies und ähnlichen Technologien</li>
                     </ul>
+                    <p className="mt-2">
+                      Sie können Ihre Einwilligung jederzeit widerrufen.
+                    </p>
+                    <p className="mt-2">
+                      82DASH erhebt oder verarbeitet keine besonderen Kategorien personenbezogener Daten im Sinne von Artikel 9 DSGVO (z. B. Daten zur rassischen oder ethnischen Herkunft, politischen Meinungen, religiösen Überzeugungen, Gesundheitsdaten oder sexuellen Orientierung) absichtlich.
+                    </p>
+                    <p className="mt-2">
+                      Als Plattform für nutzergenerierte Inhalte kann es jedoch vorkommen, dass Sie freiwillig Inhalte hochladen oder einreichen (z. B. Bilder, Videos, Texte oder Formularantworten), die solche sensiblen Daten enthalten. Mit dem Hochladen solcher Inhalte erkennen Sie an, dass diese Informationen freiwillig und mit Ihrer ausdrücklichen Einwilligung bereitgestellt werden.
+                    </p>
+                    <p className="mt-2">
+                      Falls besondere Kategorien von Daten verarbeitet werden, trifft 82DASH geeignete Schutzmassnahmen gemäss geltendem Datenschutzrecht, einschliesslich Zugriffsbeschränkungen und sicherer Verarbeitung.
+                    </p>
+
+                    <strong>Vertragserfüllung:</strong> Wenn Sie Inhalte auf der 82DASH-Plattform hochladen, gehen Sie mit uns einen Vertrag ein, wie in unseren <a href="#" className="text-blue-600 underline">Allgemeinen Geschäftsbedingungen</a> definiert. Wir verarbeiten Ihre personenbezogenen Daten zur Erfüllung dieses Vertrags, z. B.:
+                    <ul className="list-disc pl-6 mt-1 space-y-1">
+                      <li>Erstellung und Verwaltung Ihres Kontos</li>
+                      <li>Verwaltung Ihrer hochgeladenen Inhalte</li>
+                      <li>Verarbeitung und Lizenzierung eingereichter Inhalte</li>
+                      <li>Bereitstellung von Plattformfunktionen</li>
+                      <li>Bereitstellung von Kundensupport</li>
+                      <li>Versand von dienstbezogenen Mitteilungen</li>
+                      <li>Verwaltung von Belohnungen, sofern zutreffend</li>
+                      <li>Unterstützung unserer Kunden bei der Verwaltung ihrer lizenzierten Inhalte</li>
+                    </ul>
+
+                    <p className="mt-2 italic">
+                      Hinweis: Wenn Sie Inhalte eingereicht haben, die an ein Kundenunternehmen lizenziert wurden, behalten Sie Ihre Rechte gemäss geltendem Datenschutzrecht (z. B. DSGVO). Inhalte, die bereits lizenziert und verbreitet wurden, können jedoch weiterhin vom Kunden gemäss der ursprünglichen Lizenzvereinbarung genutzt werden. In manchen Fällen ist es möglicherweise nicht möglich, diese vollständig von allen Kanälen oder Plattformen zu entfernen.
+                    </p>
+
+                    <strong>Berechtigtes Interesse:</strong> Wir verarbeiten Daten zur Wahrung unserer berechtigten Interessen, sofern diese nicht Ihre Grundrechte oder -freiheiten überwiegen. Dies umfasst:
+                    <ul className="list-disc pl-6 mt-1 space-y-1">
+                      <li>Sicherung unserer Plattform und Betrugsprävention</li>
+                      <li>Verbesserung der Nutzererfahrung und Dienste</li>
+                      <li>Nutzungsanalyse zur Entwicklung neuer Funktionen</li>
+                      <li>Kommunikation zu Plattformaktualisierungen oder Richtlinien</li>
+                    </ul>
+
+                    <strong>Gesetzliche Verpflichtung:</strong> Wir können Ihre Daten verarbeiten, um gesetzlichen Anforderungen nachzukommen, z. B.:
+                    <ul className="list-disc pl-6 mt-1 space-y-1">
+                      <li>Beantwortung rechtmässiger Anfragen von Behörden</li>
+                      <li>Einhaltung steuerlicher, gesellschaftsrechtlicher oder datenschutzrechtlicher Vorschriften</li>
+                      <li>Verwaltung und Verteidigung von Rechtsansprüchen</li>
+                    </ul>
+
                   </div>
 
                   <div>
-                    <h3 className="font-semibold">1.5 Wie wir personenbezogene Daten weitergeben und an wen</h3>
+                    <h3 className="font-semibold mb-2">1.5 Wie wir personenbezogene Daten weitergeben und an wen</h3>
                     <p className="mt-4 mb-4">
                       Wir verkaufen keine personenbezogenen Daten. <br />
                       Wir geben sie nur weiter an:
@@ -190,7 +184,7 @@ export default function DEPrivacyPolicy() {
                   </div>
 
                   <div>
-                    <h3 className="font-semibold">1.6 Daten von Minderjährigen</h3>
+                    <h3 className="font-semibold mb-2">1.6 Daten von Minderjährigen</h3>
                     <p>
                       Unsere Dienste richten sich nicht an Nutzer unter 18 Jahren. Wir erfassen wissentlich keine Daten von Minderjährigen.
                       Wenn Sie glauben, dass ein Kind personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte, damit wir diese entfernen können.
@@ -198,7 +192,7 @@ export default function DEPrivacyPolicy() {
                   </div>
 
                   <div>
-                    <h3 className="font-semibold">1.7 Unsere Rolle als Auftragsverarbeiter</h3>
+                    <h3 className="font-semibold mb-2">1.7 Unsere Rolle als Auftragsverarbeiter</h3>
                     <p>
                       In den meisten Fällen handelt 82DASH als Auftragsverarbeiter, d. h. wir verarbeiten personenbezogene Daten im Auftrag unserer Kundenunternehmen.
                     </p>
@@ -207,7 +201,7 @@ export default function DEPrivacyPolicy() {
                       <li>Wir verarbeiten personenbezogene Daten wie E-Mail-Adresse, Adresse oder eingereichte Bilder/Videos gemäss den Weisungen des Kundenunternehmens</li>
                       <li>Das Kundenunternehmen ist der Verantwortliche und entscheidet, warum und wie Ihre Daten verwendet werden – z. B. in einer Social-Media-Kampagne oder auf einer Markenwebsite</li>
                     </ul>
-                    <p className="mt-2">Als Auftragsverarbeiter verpflichtet sich 82DASH zu Folgendem:</p>
+                    <p className="mt-2 mb-2">Als Auftragsverarbeiter verpflichtet sich 82DASH zu Folgendem:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>Verarbeitung von Daten ausschliesslich gemäss den dokumentierten Weisungen des Verantwortlichen (unser Kunde)</li>
                       <li>Umsetzung robuster technischer und organisatorischer Massnahmen zum Schutz Ihrer personenbezogenen Daten</li>
@@ -218,7 +212,7 @@ export default function DEPrivacyPolicy() {
                   </div>
 
                   <div>
-                    <h3 className="font-semibold">1.8 Unabhängige Verantwortlichkeit des Auftragsverarbeiters</h3>
+                    <h3 className="font-semibold mb-2">1.8 Unabhängige Verantwortlichkeit des Auftragsverarbeiters</h3>
                     <p>
                       Zusätzlich zur Tätigkeit als Auftragsverarbeiter im Auftrag des Verantwortlichen kann 82DASH auch als eigenständiger Verantwortlicher für eigene Zwecke auftreten, u. a. für:
                     </p>
@@ -232,7 +226,7 @@ export default function DEPrivacyPolicy() {
                   </div>
 
                   <div>
-                    <h3 className="font-semibold">1.9 Einsatz von Unterauftragsverarbeitern</h3>
+                    <h3 className="font-semibold mb-2">1.9 Einsatz von Unterauftragsverarbeitern</h3>
                     <p>
                       Wir arbeiten mit vertrauenswürdigen Unterauftragsverarbeitern zusammen, um unsere Dienste bereitzustellen. Diese unterstützen uns u. a. bei Hosting, Analytik, Inhaltsbereitstellung, Kundensupport und Kommunikation. Die vollständige und aktuelle Liste unserer Unterauftragsverarbeiter finden Sie in unserer Subprocessor-Liste.
                     </p>
@@ -252,31 +246,31 @@ export default function DEPrivacyPolicy() {
                     <p className="mt-2">Je nach Ihrem Wohnsitz haben Sie folgende Rechte:</p>
                     <ul className="list-disc pl-6 space-y-1 mt-2">
                       <li>
-                        <strong>Auskunft:</strong>  
+                        Auskunft:<br/>
                         Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob personenbezogene Daten über Sie verarbeitet werden. Ist dies der Fall, haben Sie gemäss Artikel 15 DSGVO das Recht auf Auskunft über diese Daten und auf weitergehende Informationen.
                       </li>
                       <li>
-                        <strong>Berichtigung:</strong>  
+                        Berichtigung:<br/>  
                         Sie haben das Recht, die Berichtigung unrichtiger personenbezogener Daten zu verlangen. Sie können auch die Vervollständigung unvollständiger Daten verlangen.
                       </li>
                       <li>
-                        <strong>Löschung:</strong>  
+                        Löschung:<br/>  
                         Unter den Voraussetzungen von Artikel 17 DSGVO können Sie die Löschung Ihrer personenbezogenen Daten verlangen.
                       </li>
                       <li>
-                        <strong>Einschränkung/Widerspruch:</strong>  
+                        Einschränkung/Widerspruch:<br/>  
                         Sie haben das Recht, die Einschränkung der Verarbeitung zu verlangen, wenn eine der Voraussetzungen aus Artikel 18 DSGVO erfüllt ist – z. B. wenn Sie Widerspruch eingelegt haben und dieser noch geprüft wird.
                       </li>
                       <li>
-                        <strong>Datenübertragbarkeit:</strong>  
+                        Datenübertragbarkeit:<br/>  
                         In bestimmten Fällen haben Sie gemäss Artikel 20 DSGVO das Recht, Ihre personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten und an einen anderen Verantwortlichen übertragen zu lassen.
                       </li>
                       <li>
-                        <strong>Widerruf der Einwilligung:</strong>  
+                        Widerruf der Einwilligung:<br/>  
                         Wenn die Verarbeitung auf Ihrer Einwilligung beruht, können Sie diese jederzeit widerrufen. Der Widerruf hat keinen Einfluss auf die Rechtmässigkeit der Verarbeitung vor dem Widerruf.
                       </li>
                       <li>
-                        <strong>Kalifornische Nutzer (CCPA):</strong>  
+                        Kalifornische Nutzer (CCPA):<br/>  
                         <ul className="list-disc pl-6 space-y-1 mt-1">
                           <li>Opt-out von Verkauf oder Weitergabe (Hinweis: Wir verkaufen Ihre Daten nicht)</li>
                           <li>Berichtigung oder Löschung personenbezogener Daten</li>
@@ -291,6 +285,7 @@ export default function DEPrivacyPolicy() {
 
                  <div>
                     <h3 className="font-semibold">1.11 Wie wir Ihre personenbezogenen Daten schützen</h3>
+                    <p className="mt-2 mb-2">Wir setzen eine Vielzahl technischer und organisatorischer Schutzmassnahmen ein:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>Alle Datenübertragungen erfolgen verschlüsselt über HTTPS</li>
                       <li>Gespeicherte Daten werden auf Datenbankebene verschlüsselt und mit Zugriffskontrollen gesichert</li>
@@ -310,10 +305,8 @@ export default function DEPrivacyPolicy() {
                       <li>die in dieser Richtlinie genannten Zwecke zu erfüllen</li>
                       <li>gesetzlichen oder regulatorischen Verpflichtungen nachzukommen</li>
                       <li>Streitigkeiten zu klären und Vereinbarungen durchzusetzen</li>
+                      <li>Daten können anonymisiert oder sicher gelöscht werden, wenn sie nicht mehr benötigt werden. Kontodaten von Unternehmen werden zwei Jahre nach der Deaktivierung gelöscht, während Daten von Inhaltserstellern 14 Tage nach Schließung des zugehörigen Unternehmenskontos oder auf Veranlassung des Unternehmens gelöscht werden.</li>
                     </ul>
-                    <p className="mt-2">
-                      Daten können anonymisiert oder sicher gelöscht werden, wenn sie nicht mehr benötigt werden. Kontodaten von Unternehmen werden zwei Jahre nach der Deaktivierung gelöscht, während Daten von Inhaltserstellern 14 Tage nach Schließung des zugehörigen Unternehmenskontos oder auf Veranlassung des Unternehmens gelöscht werden.
-                    </p>
                   </div>
 
                   <div>
@@ -329,18 +322,40 @@ export default function DEPrivacyPolicy() {
                   </div>
 
                   <div>
-                    <h3 className="font-semibold">1.5 Wie wir personenbezogene Daten weitergeben und an wen</h3>
-                    <p className="mt-4 mb-4">
-                      Wir verkaufen keine personenbezogenen Daten. <br />
-                      Wir geben sie nur weiter an:
+                    <h3 className="font-semibold">1.14 Nutzung von KI-Funktionen</h3>
+                    <p className="mt-2">
+                      Wir verwenden Werkzeuge der künstlichen Intelligenz (KI), um die Funktionalität und Benutzererfahrung unserer Plattform zu verbessern. Diese Werkzeuge können folgende  Datenarten verarbeiten:
                     </p>
-                    <ul className="list-disc pl-6 space-y-1">
-                      <li>Unternehmen, die Creator-Inhalte lizenzieren</li>
-                      <li>Vertrauenswürdige Dienstleister (z. B. Hosting, Analytik)</li>
-                      <li>Gesetzliche oder behördliche Stellen, wenn dies erforderlich ist</li>
-                      <li>Konzernunternehmen oder Rechtsnachfolger im Falle einer Fusion oder Übernahme</li>
+                    <ul className="list-disc pl-6 space-y-1 mt-2">
+                      <li>Inhalteingaben: Bilder, Videos und andere Medien, die Sie hochladen (Erstellerinhalte)</li>
+                      <li>Metadaten: Informationen wie Zeitstempel, Tags und Antworten auf Einreichungsformulare</li>
+                    </ul>
+                    <p className="mt-2">
+                      Verarbeitungszweck
+                    </p>
+                    <p className="mt-2">KI wird eingesetzt, um:</p>
+                    <ul className="list-disc pl-6 space-y-1 mt-2">
+                      <li>Hochgeladene Inhalte automatisch zu taggen und zu kategorisieren</li>
+                      <li>Die Qualität oder Relevanz von Inhalten zu bewerten</li>
+                      <li>Filter- und Suchfunktionen innerhalb der Plattform zu unterstützen</li>
+                    </ul>
+                    <p className="mt-2">
+                      Speicherung und Verarbeitung Ihrer Daten:
+                    </p>
+                    <ul className="list-disc pl-6 space-y-1 mt-2">
+                      <li>Inhalte werden in ihrer Originalform gespeichert, es sei denn, sie werden vom Unternehmen gelöscht.</li>
+                      <li>Bitte beachten Sie, dass Ersteller ihre Inhalte nicht direkt löschen können. Löschanfragen können beim Unternehmen eingereicht werden, das als Datenverantwortlicher gemäß den geltenden lokalen Datenschutzgesetzen darüber entscheidet und reagiert.</li>
+                      <li>Von KI generierte Ausgaben (z. B. Tags, Relevanzbewertungen) bleiben intern und werden nicht extern weitergegeben.</li>
+                      <li>Wir verwenden oder teilen Ihre Inhalte oder Daten nicht mit KI-Tools oder Anbietern Dritter.</li>
+                    </ul>
+                    <p className="mt-2">
+                      Modelltraining:
+                    </p>
+                    <ul className="list-disc pl-6 space-y-1 mt-2">
+                      <li>Inhalte und Metadaten können zur Verfeinerung und Verbesserung unserer internen KI-Modelle genutzt werden, um die Plattformleistung zu optimieren. Diese Verarbeitung erfolgt sicher und vollständig intern.</li>
                     </ul>
                   </div>
+
                   <div>
                       <h3 className="text-lg font-semibold">2.0 Regionale Bestimmungen</h3>
                       <p className="mt-2">
