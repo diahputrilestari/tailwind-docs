@@ -27,19 +27,19 @@ export default function DETermsOfService() {
                 </p>
                 <p className="mt-4">Unsere Leistungen umfassen:</p>
                 <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
-                  <li>Content-Generierungstools  
+                  <li><strong>Content-Generierungstools</strong><br/>
                     Lade Inhalte ganz einfach hoch, lizenziere sie und erhalte Belohnungen – mit nur wenigen Klicks.
                   </li>
-                  <li>Community-Tools  
+                  <li><strong>Community-Tools</strong><br/>
                     Verbinde dich mit Creators, arbeite gemeinsam an Inhalten und starte neue Kampagnen.
                   </li>
-                  <li>Content-Management  
+                  <li><strong>Content-Management</strong><br/>
                     Organisiere und verfolge alle eingereichten Inhalte mit intuitiven Dashboards und Performance-Insights.
                   </li>
-                  <li>Produkt-Integrationen  
+                  <li><strong>Produkt-Integrationen</strong><br/>
                     Verbinde dich nahtlos mit E‑Commerce‑ und Marketing-Plattformen.
                   </li>
-                  <li>Verbreitung & Sichtbarkeit  
+                  <li><strong>Verbreitung & Sichtbarkeit</strong><br/>
                     Erweitere deine Reichweite über unsere Plattform und integrierte Distributionskanäle.
                   </li>
                 </ul>
@@ -54,8 +54,8 @@ export default function DETermsOfService() {
                   Bei Fragen zu diesen Bedingungen kontaktiert uns bitte unter <a href="mailto:info@82DASH.com" className="text-blue-600 underline">info@82DASH.com</a>
                 </p>
 
-                <details className="mb-4 open">
-                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer">1. Nutzungsbedingungen für alle Nutzer</summary>
+                <div className="mb-4">
+                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">1. Nutzungsbedingungen für alle Nutzer</summary>
                   <div className="mt-4 space-y-4">
                     <p>
                       Durch den Zugriff auf oder die Nutzung von 82DASH erklärt ihr euch mit den in diesen Nutzungsbedingungen („Bedingungen“) beschriebenen Regeln und Pflichten einverstanden. Diese Bedingungen stellen eine verbindliche Vereinbarung zwischen euch und 82DASH dar und gelten für alle, die unsere Plattform besuchen, nutzen oder Inhalte beitragen – einschliesslich Einzelpersonen, Creators und Unternehmen.
@@ -65,12 +65,12 @@ export default function DETermsOfService() {
                     </p>
                     <p>
                       Durch den Zugriff auf oder die Nutzung von 82DASH bestätigt ihr, dass ihr diese Bedingungen gelesen habt und ihnen zustimmt.
-                      Wenn ihr nicht einverstanden seid, nutzt die Plattform bitte nicht.
                     </p>
+                    <p>Wenn ihr nicht einverstanden seid, nutzt die Plattform bitte nicht.</p>
                   </div>
 
-                  <details className="mb-4">
-                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer">1.1 Wer darf 82DASH nutzen</summary>
+                  <div className="mb-4 mt-4">
+                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.1 Wer darf 82DASH nutzen</summary>
                     <div className="mt-4 space-y-4">
                       <h3 className="text-lg font-semibold">Altersvoraussetzungen</h3>
                       <p>
@@ -81,10 +81,10 @@ export default function DETermsOfService() {
                         Wenn ihr 82DASH im Namen eines Unternehmens, einer Organisation oder einer anderen juristischen Person nutzt, erklärt und gewährleistet ihr, dass ihr bevollmächtigt seid, diese an diese Bedingungen zu binden. In diesem Fall beziehen sich „ihr“ und „euch“ sowohl auf euch als natürliche Person als auch auf die vertretene Organisation.
                       </p>
                     </div>
-                  </details>
+                  </div>
 
-                  <details className="mb-4">
-                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer">1.2 Konto­registrierung</summary>
+                  <div className="mb-4">
+                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.2 Konto­registrierung</summary>
                     <div className="mt-4 space-y-4">
                       <p>
                         Um auf die 82DASH‑Plattform zuzugreifen, müsst ihr eventuell ein Konto erstellen. Bei der Registrierung verpflichtet ihr euch, korrekte, aktuelle und vollständige Angaben zu machen und eure Kontodaten stets auf dem neuesten Stand zu halten.
@@ -93,17 +93,18 @@ export default function DETermsOfService() {
                         Ihr seid dafür verantwortlich, eure Zugangsdaten vertraulich zu behandeln und haftet für sämtliche Aktivitäten, die unter eurem Konto erfolgen. Wenn ihr vermutet, dass euer Konto kompromittiert wurde, kontaktiert uns bitte umgehend.
                       </p>
                     </div>
-                  </details>
+                  </div>
 
-                  <details className="mb-4">
-                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer">1.3 Zulässige Nutzung der Plattform</summary>
+                  <div className="mb-4">
+                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.3 Zulässige Nutzung der Plattform</summary>
                     <div className="mt-4 space-y-4">
                       <p>
                         Bei der Nutzung von 82DASH verpflichtet ihr euch zu einem verantwortungsbewussten und rechtmässigen Verhalten. Ihr dürft insbesondere nicht:
                       </p>
                       <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
                         <li>die Plattform für rechtswidrige, betrügerische, böswillige oder schädliche Zwecke nutzen</li>
-                        <li>Inhalte posten oder fördern, die Gewalt oder Diskriminierung aufgrund von Rasse, ethnischer Herkunft, Nationalität, Religion, Kaste, sexueller Orientierung, Geschlecht, Geschlechtsidentität, schwerer Krankheit, Behinderung, Migrationsstatus oder Alter enthalten oder fördern, oder anderweitig schädliche Inhalte enthalten (z. B. solche, die Kindern physischen, psychischen oder moralischen Schaden zufügen)</li>
+                        <li>Inhalte posten oder fördern, die Gewalt oder Diskriminierung aufgrund von Rasse, ethnischer Herkunft, Nationalität, Religion, Kaste, sexueller Orientierung, Geschlecht, Geschlechtsidentität, schwerer Krankheit, Behinderung, Migrationsstatus oder Alter enthalten oder fördern,</li>
+                        <li>oder anderweitig schädliche Inhalte enthalten (z. B. solche, die Kindern physischen, psychischen oder moralischen Schaden zufügen)</li>
                         <li>beleidigende, verleumderische, irreführende oder geistige Eigentumsrechte verletzende Inhalte veröffentlichen, einschliesslich Urheberrechte, Markenrechte oder sonstiger Schutzrechte</li>
                         <li>andere Personen imitieren oder eure Identität oder Zugehörigkeit falsch darstellen</li>
                         <li>versuchen, den Code, die Funktionen oder die Sicherheitssysteme der Plattform zu hacken, zu dekompilieren oder anderweitig zu manipulieren</li>
@@ -115,10 +116,10 @@ export default function DETermsOfService() {
                         Wir behalten uns das Recht vor, euren Zugang zu sperren oder zu beenden, wenn ihr gegen eine dieser Regeln verstosst.
                       </p>
                     </div>
-                  </details>
+                  </div>
 
-                  <details className="mb-4">
-                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer">1.4 Geistiges Eigentum</summary>
+                  <div className="mb-4">
+                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.4 Geistiges Eigentum</summary>
                     <div className="mt-4 space-y-4">
                       <p>
                         Alle Inhalte, Technologien und Materialien, die von 82DASH bereitgestellt werden, sind durch Urheberrechte, Markenrechte und andere Gesetze zum Schutz geistigen Eigentums geschützt. Ihr erklärt euch damit einverstanden, keine unserer Materialien ohne vorherige schriftliche Genehmigung zu vervielfältigen, zu verändern, zu verbreiten oder anderweitig zu nutzen.
@@ -130,10 +131,10 @@ export default function DETermsOfService() {
                         Wir behalten uns das Recht vor, nach eigenem Ermessen und mit oder ohne Vorankündigung, den Zugriff auf die Plattform zu sperren oder das Konto eines Nutzers zu sperren oder zu kündigen, wenn dieser geistige Eigentumsrechte verletzt oder verdächtigt wird, diese zu verletzen.
                       </p>
                     </div>
-                  </details>
+                  </div>
 
-                  <details className="mb-4">
-                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer">1.5 Datenschutz</summary>
+                  <div className="mb-4">
+                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.5 Datenschutz</summary>
                     <div className="mt-4 space-y-4">
                       <p>
                         Der Schutz eurer Privatsphäre ist uns wichtig. Unsere <a href="#" className="text-blue-600 underline">Datenschutzrichtlinie</a> erklärt, wie wir eure personenbezogenen Daten erfassen, verwenden und schützen, wenn ihr 82DASH nutzt. Wir halten internationale Datenschutzgesetze ein, darunter die Datenschutz-Grundverordnung (DSGVO) und den California Consumer Privacy Act (CCPA).
@@ -142,18 +143,17 @@ export default function DETermsOfService() {
                         Alle Inhalte, die ihr hochladet und die personenbezogene Daten enthalten, werden gemäss unseren Datenschutzbedingungen verarbeitet – es sei denn, sie dienen ausschliesslich persönlichen oder familiären Zwecken.
                       </p>
                     </div>
-                  </details>
+                  </div>
 
-                  <details className="mb-4">
-                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer">1.6 Beendigung</summary>
+                  <div className="mb-4">
+                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.6 Beendigung</summary>
                     <div className="mt-4 space-y-4">
                       <p>
                         Wir behalten uns das Recht vor, euren Zugang zu 82DASH zu sperren oder zu kündigen, wenn ihr gegen diese Bedingungen verstosst oder dies gesetzlich erforderlich ist. Wenn wir auf Grundlage konkreter Anhaltspunkte zu der Einschätzung kommen, dass eure Inhalte (1) gegen diese Bedingungen verstossen oder (2) Schaden für 82DASH, andere Nutzer oder Dritte verursachen könnten, sind wir berechtigt, diese Inhalte zu entfernen oder zu sperren.
                       </p>
                       <p>
                         Wir werden euch zeitnah benachrichtigen und den Grund für unsere Massnahme mitteilen.
-                      </p>
-                      <p>
+                        <br/>
                         Ihr erhaltet die Gelegenheit, das Problem zu beheben oder das beanstandete Verhalten einzustellen, es sei denn, dies würde:
                       </p>
                       <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
@@ -163,14 +163,14 @@ export default function DETermsOfService() {
                         <li>erheblichen Schaden für einen Nutzer oder Dritten verursachen</li>
                       </ul>
                     </div>
-                  </details>
+                  </div>
 
-                  <details className="mb-4">
-                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer">1.7 Haftungsbeschränkung</summary>
+                  <div className="mb-4">
+                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.7 Haftungsbeschränkung</summary>
                     <div className="mt-4 space-y-4">
                       <p>Wofür wir keine Verantwortung übernehmen:</p>
+                      <p>82DASH haftet nicht für unvorhergesehene Probleme oder Schäden, die durch eure Nutzung der Plattform oder durch Inhalte entstehen, die ihr darüber erhalten, lizenziert oder verwendet habt. Dies schliesst ein:</p>
                       <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
-                        <li>82DASH haftet nicht für unvorhergesehene Probleme oder Schäden, die durch eure Nutzung der Plattform oder durch Inhalte entstehen, die ihr darüber erhalten, lizenziert oder verwendet habt. Dies schliesst ein:</li>
                         <li>Verlust von Gewinnen, Daten oder Reputation</li>
                         <li>Probleme beim Zugriff auf die Plattform, technische Störungen oder die unautorisierte Nutzung von Inhalten durch Dritte</li>
                       </ul>
@@ -182,10 +182,10 @@ export default function DETermsOfService() {
                         Ihr verpflichtet euch, 82DASH, unser Team und unsere Partner von rechtlichen Ansprüchen oder Schäden freizustellen, die durch eure Nutzung der Plattform oder durch die von euch hochgeladenen Inhalte verursacht werden.
                       </p>
                     </div>
-                  </details>
+                  </div>
 
-                  <details className="mb-4">
-                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer">1.8 Änderungen der Bedingungen</summary>
+                  <div className="mb-4">
+                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.8 Änderungen der Bedingungen</summary>
                     <div className="mt-4 space-y-4">
                       <p>82DASH kann diese Bedingungen gelegentlich aktualisieren, um Folgendem Rechnung zu tragen:</p>
                       <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
@@ -209,16 +209,16 @@ export default function DETermsOfService() {
                         Auch wenn ihr die Nutzung von 82DASH beendet, bleiben jene Abschnitte dieser Bedingungen wirksam, die ihrem Zweck nach überdauern – insbesondere jene zu geistigem Eigentum, Haftungsausschluss, Haftungsbeschränkung und Streitbeilegung.
                       </p>
                     </div>
-                  </details>
+                  </div>
 
-                </details>
+                </div>
 
-                <details className="mb-4 open">
-                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer">2.	Nutzungsbedingungen für Unternehmen</summary>
+                <div className="mb-4 open">
+                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">2.	Nutzungsbedingungen für Unternehmen</summary>
                   <div className="mt-4 space-y-4">
 
-                    <details>
-                      <summary className="text-lg font-semibold cursor-pointer">2.1 Unternehmenskonten</summary>
+                    <div>
+                      <summary className="text-lg font-semibold cursor-pointer pl-0 list-none">2.1 Unternehmenskonten</summary>
                       <div className="mt-2 space-y-3">
                         <p>
                           Unternehmen, die 82DASH nutzen, müssen eine autorisierte Vertretung benennen, die das Konto verwaltet.
@@ -226,10 +226,12 @@ export default function DETermsOfService() {
                           Es liegt in der Verantwortung des Unternehmens, eine ordnungsgemässe Nutzung sicherzustellen und die Zugangsdaten zu schützen.
                         </p>
                       </div>
-                    </details>
+                    </div>
 
-                    <details>
-                      <summary className="text-lg font-semibold cursor-pointer">2.2 Lizenzbedingungen für Unternehmensinhalte</summary>
+                    <div>
+                      <summary className="text-lg font-semibold cursor-pointer pl-0 list-none">2.2 Lizenzbedingungen für Unternehmensinhalte</summary>
+                      <p>Wenn euer Unternehmen über 82DASH Inhalte erhält, wird euch eine Lizenz zur Nutzung dieser Inhalte gemäss den folgenden Bestimmungen erteilt</p>
+                      <p className="mt-2">Diese Bedingungen erläutern den Umfang eurer Rechte, eure Pflichten als Lizenznehmer sowie den rechtmässigen, respektvollen und angemessenen Umgang mit den von Creators eingereichten Inhalten.</p>
                       <div className="mt-2 space-y-3">
                         <h4 className="font-semibold">2.2.1 Lizenzumfang und Rechte</h4>
                         <p>
@@ -247,79 +249,86 @@ export default function DETermsOfService() {
                         </p>
 
                         <h4 className="font-semibold">2.2.2 Verantwortungsbewusster Umgang mit Inhalten</h4>
+                        <p className="mt-2 mb-2">Mit Annahme von Inhalten über 82DASH verpflichtet ihr euch:</p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
                           <li>Inhalte gemäss den internen Datenschutz-, Sicherheits- und Compliance-Richtlinien eures Unternehmens sicher zu speichern und zu verwalten</li>
                           <li>Inhalte verantwortungsvoll zu nutzen, ohne sie irreführend zu verändern oder darzustellen und ohne den abgebildeten Personen zu schaden</li>
                           <li>die Würde, das Erscheinungsbild und das Bildrecht aller abgebildeten Personen zu respektieren</li>
                           <li>alle Metadaten, Nutzungsbeschränkungen oder Einwilligungsdokumente, die von 82DASH bereitgestellt wurden, zu bewahren und zu beachten</li>
-                          <li>sich an geltende Datenschutzgesetze (z. B. DSGVO und CCPA) zu halten</li>
-                          <li>nach Übertragung der Inhalte als deren Verantwortlicher (Data Controller) zu handeln</li>
-                          <li>sicherzustellen, dass jede Nutzung mit den Richtlinien der Plattformen übereinstimmt (z. B. Meta, TikTok, Google)</li>
+                          <li>sämtliche geltenden Datenschutzgesetze (u. a. DSGVO und CCPA) einzuhalten, insbesondere wenn Inhalte personenbezogene Daten enthalten</li>
+                          <li>nach Übertragung der Inhalte als deren Verantwortlicher (Data Controller) zu handeln und alle datenschutzrechtlichen Verpflichtungen zu erfüllen</li>
+                          <li>sicherzustellen, dass jede Nutzung mit den Richtlinien der Plattformen übereinstimmt, auf denen Inhalte veröffentlicht werden (z. B. Meta, TikTok, Google)</li>
                           <li>bei Verwendung als Testimonial sicherzustellen, dass Aussagen wahrheitsgemäss sind und der typischen Nutzererfahrung entsprechen</li>
-                          <li>geltende Vorschriften (z. B. FTC-Richtlinien in den USA) einzuhalten und materielle Verbindungen klar offenzulegen</li>
+                          <li>bei Testimonials oder Empfehlungen geltende Vorschriften (z. B. FTC-Richtlinien in den USA) einzuhalten und materielle Verbindungen klar offenzulegen</li>
                         </ul>
 
                         <h4 className="font-semibold">2.2.3 Anforderungen an Offenlegung und Endorsement</h4>
                         <p>
-                          Wird ein Inhalt in einer Weise verwendet, die eine Empfehlung impliziert – insbesondere wenn der Creator eine Vergütung, Belohnung oder Anreiz erhalten hat – muss das Unternehmen sicherstellen, dass eine klare und deutliche Offenlegung erfolgt, entsprechend der geltenden lokalen Werbe- und Verbraucherschutzgesetze sowie den Richtlinien der jeweiligen Plattform.
+                          Wird ein Inhalt in einer Weise verwendet, die eine Empfehlung impliziert – insbesondere wenn der Creator eine Vergütung, Belohnung oder Anreiz erhalten hat – muss das Unternehmen sicherstellen, dass eine klare und deutliche Offenlegung erfolgt, entsprechend der geltenden lokalen Werbe- und Verbraucherschutzgesetze sowie den Richtlinien der jeweiligen Plattform
                         </p>
+                        <p className="mt-2 mb-2">Diese Offenlegung muss sichtbar, plattformkonform und an allen öffentlichen Erscheinungsorten des Inhalts angebracht sein.</p>
                         <p>82DASH haftet nicht für eine Nichteinhaltung dieser Offenlegungspflichten durch das Unternehmen.</p>
 
                         <h4 className="font-semibold">2.2.4 Missbrauch und Lizenzentzug</h4>
-                        <p>Missbrauch umfasst insbesondere:</p>
+                        <p>Wir behalten uns das Recht vor, eure Lizenz bei Missbrauch oder Verstoss gegen geltendes Recht bzw. diese Bedingungen einzuschränken oder zu widerrufen.Missbrauch umfasst insbesondere:</p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
-                          <li>irreführende, verleumderische, belästigende, diskriminierende oder schädliche Nutzung von Inhalten</li>
-                          <li>Bearbeitung oder Präsentation von Inhalten in verfälschender oder irreführender Weise</li>
-                          <li>Veröffentlichung in einem irreführenden Kontext oder mit nicht belegbaren Behauptungen</li>
-                          <li>Nutzung im Rahmen unfairer kommerzieller Praktiken</li>
+                          <li>irreführende, verleumderische, belästigende, diskriminierende oder schädliche Nutzung von Inhalten, einschliesslich Herabwürdigung oder negativer Darstellung identifizierbarer Personen</li>
+                          <li>Bearbeitung oder Präsentation von Inhalten in verfälschender oder irreführender Weise (z. B. durch Weglassen negativer Erfahrungen)</li>
+                          <li>Veröffentlichung in einem irreführenden Kontext oder mit nicht belegbaren Behauptungen, selbst wenn diese vom Creator stammen</li>
+                          <li>Nutzung im Rahmen unfairer kommerzieller Praktiken oder zur Ausnutzung von Verbraucher:innen</li>
                           <li>Verstösse gegen Datenschutz- oder Urheberrechte</li>
-                          <li>Verbindung von Inhalten mit kontroversen, illegalen oder schädlichen Themen</li>
-                          <li>Weiterverkauf, Unterlizenzierung oder Weitergabe ausserhalb des vereinbarten Zwecks ohne Genehmigung von 82DASH</li>
+                          <li>Verbindung von Inhalten mit kontroversen, illegalen oder schädlichen Themen oder Produkten</li>
+                          <li>Weiterverkauf, Unterlizenzierung oder anderweitige Weitergabe ausserhalb des vereinbarten Kampagnenzwecks ohne Genehmigung von 82DASH</li>
                         </ul>
                         <p>
                           Wird ein solcher Verstoss festgestellt:
                         </p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
                           <li>wird eure Lizenz zum betroffenen Inhalt sofort widerrufen</li>
-                          <li>ihr müsst die Nutzung sofort einstellen und Inhalte entfernen</li>
-                          <li>eine zukünftige Nutzung oder Weiterverbreitung ist untersagt</li>
+                          <li>ihr müsst die Nutzung umgehend einstellen und den Inhalt aus allen digitalen und physischen Medien entfernen</li>
+                          <li>eine zukünftige Nutzung, Änderung, Lizenzierung oder Weiterverbreitung ist untersagt</li>
                         </ul>
 
                         <h4 className="font-semibold">2.2.5 Widerruf von Einwilligungen und Löschanfragen</h4>
-                        <p>
-                          Wenn ein Creator seine Einwilligung widerruft und im Inhalt identifizierbar ist, informiert euch 82DASH. Danach müsst ihr:
+                        <p className="mt-2 mb-2">
+                          Als Unternehmen, das Inhalte über 82DASH lizenziert hat, seid ihr für die Bearbeitung von Widerrufen und Betroffenenanfragen verantwortlich, sobald ihr nach der Übertragung als Datenverantwortlicher agiert
                         </p>
+                        <p>Wenn ein Creator seine Einwilligung gemäss Datenschutzgesetzen (wie DSGVO oder CCPA) widerruft und im lizenzierten Inhalt identifizierbar ist, informiert euch 82DASH umgehend. Nach Erhalt dieser Mitteilung müsst ihr:</p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
                           <li>die Nutzung sofort einstellen</li>
-                          <li>den Inhalt aus Systemen und Plattformen löschen</li>
-                          <li>vertretbare Anstrengungen zur Löschung bei Dritten unternehmen</li>
+                          <li>den Inhalt aus euren Systemen und Archiven löschen oder sicher entfernen</li>
+                          <li>vertretbare Anstrengungen unternehmen, um den Inhalt auch auf Drittplattformen zu entfernen oder zu unterdrücken</li>
                         </ul>
-                        <p>Datenschutzrechte überwiegen, falls kein anderes berechtigtes Interesse besteht.</p>
-
+                        <p>Grundsätzlich ist die Lizenz für kommerzielle Nutzung unwiderruflich. Besteht jedoch ein datenschutzrechtlicher Anspruch, gehen diese Rechte vor.</p>
+                        <p className="mt-2 mb-2">Die Anfragen sind im Einzelfall zu prüfen. Gibt es keine andere rechtliche Grundlage (z. B. vertragliche Notwendigkeit oder berechtigtes Interesse), überwiegen die Datenschutzrechte der betroffenen Person</p>
+                        <p>82DASH ist nicht haftbar für die Nichteinhaltung solcher Anfragen durch das lizenzierende Unternehmen.</p>
+                        
                         <h4 className="font-semibold">2.2.6 Keine Garantie auf Exklusivität oder Originalität</h4>
-                        <p>
-                          Ohne separate Vereinbarung kann der Inhalt auch in anderen Kampagnen genutzt werden. Prüft Inhalte auf Konformität, bevor ihr sie nutzt.
+                        <p className="mt-2 mb-2">
+                          82DASH garantiert keine Exklusivität für Inhalte auf der Plattform.Sofern keine gesonderte schriftliche Vereinbarung zur Exklusivität besteht, können Inhalte auch in anderen Kampagnen oder durch andere Marken genutzt werden.
                         </p>
+                        <p>Es liegt in eurer Verantwortung, Inhalte auf ihre Eignung und Konformität mit euren Markenstandards zu prüfen, bevor ihr sie veröffentlicht.</p>
 
                         <h4 className="font-semibold">2.2.7 Verantwortung für Belohnungen</h4>
+                        <p>Wenn eure Kampagne Anreize oder Belohnungen für Beiträge vorsieht (z. B. Rabatte, Geschenke, Gutscheine), verpflichtet ihr euch dazu:</p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
-                          <li>Versprechen aus Kampagnenbriefen einhalten</li>
-                          <li>zeitnah und korrekt liefern</li>
-                          <li>Support für Creator-Anfragen anbieten</li>
+                          <li>Versprechen einzuhalten: Alle im Kampagnenbrief definierten Belohnungen müssen wie zugesagt geliefert werden</li>
+                          <li>zeitnahe und fehlerfreie Bereitstellung sicherzustellen</li>
+                          <li>Support für Belohnungsfragen anzubieten – 82DASH behält sich vor, bei Bedarf zu unterstützen</li>
                         </ul>
                       </div>
-                    </details>
+                    </div>
 
-                    <details>
+                    <div>
                       <summary className="text-lg font-semibold cursor-pointer">2.3 Einhaltung von Plattformrichtlinien</summary>
                       <div className="mt-2 space-y-3">
                         <p>
-                          Das Unternehmen ist allein dafür verantwortlich sicherzustellen, dass jegliche Nutzung der lizenzierten Inhalte den Inhalts-, Werbe- und Nutzerrichtlinien der jeweiligen Plattformen entspricht, auf denen die Inhalte verbreitet oder veröffentlicht werden – einschliesslich, aber nicht beschränkt auf Meta (Facebook/Instagram), TikTok, YouTube und Google.
+                          Das Unternehmen ist allein dafür verantwortlich sicherzustellen, dass jegliche Nutzung der lizenzierten Inhalte den Inhalts-, Werbe- und Nutzer­richtlinien der jeweiligen Plattformen entspricht, auf denen die Inhalte verbreitet oder veröffentlicht werden – einschliesslich, aber nicht beschränkt auf Meta (Facebook/Instagram), TikTok, YouTube und Google
                         </p>
                       </div>
-                    </details>
+                    </div>
 
-                    <details>
+                    <div>
                       <summary className="text-lg font-semibold cursor-pointer">2.4 Haftung und Freistellung</summary>
                       <div className="mt-2 space-y-3">
                         <p>
@@ -346,9 +355,9 @@ export default function DETermsOfService() {
                         </ul>
                         <p>Diese Freistellungspflicht gilt auch nach Beendigung eures Vertrags mit 82DASH fort.</p>
                       </div>
-                    </details>
+                    </div>
 
-                    <details>
+                    <div>
                       <summary className="text-lg font-semibold cursor-pointer">2.5 Inhaltsmoderation und Nutzungsbeschränkungen</summary>
                       <div className="mt-2 space-y-3">
                         <p>
@@ -364,9 +373,9 @@ export default function DETermsOfService() {
                           82DASH ergreift angemessene Massnahmen, um sicherzustellen, dass eingereichte Inhalte den rechtlichen und gemeinschaftlichen Standards entsprechen. Wir können jedoch nicht garantieren, dass alle Inhalte frei von rechtlichen, rufbezogenen oder regulatorischen Risiken sind. Ihr seid als Unternehmen verantwortlich dafür, alle lizenzierten Inhalte vor der Nutzung auf die Einhaltung eurer internen Marken-, Rechts- und Compliance-Richtlinien zu prüfen.
                         </p>
                       </div>
-                    </details>
+                    </div>
 
-                    <details>
+                    <div>
                       <summary className="text-lg font-semibold cursor-pointer">2.6 Freistellung</summary>
                       <div className="mt-2 space-y-3">
                         <p>
@@ -378,9 +387,9 @@ export default function DETermsOfService() {
                           <li>jeglichen Inhalten, die ihr über 82DASH aufgerufen, verwendet oder verbreitet habt und die Rechte Dritter verletzen</li>
                         </ul>
                       </div>
-                    </details>
+                    </div>
 
-                    <details>
+                    <div>
                       <summary className="text-lg font-semibold cursor-pointer">2.7 Haftungsbeschränkung</summary>
                       <div className="mt-2 space-y-3">
                         <p>
@@ -394,10 +403,10 @@ export default function DETermsOfService() {
                           <li>Vertrauen auf Inhalte, die ihr über die Plattform erhalten habt</li>
                         </ul>
                       </div>
-                    </details>
+                    </div>
 
 
-                    <details>
+                    <div>
                       <summary className="text-lg font-semibold cursor-pointer">2.8 Haftungsausschluss</summary>
                       <div className="mt-2 space-y-3">
                         <p>
@@ -420,9 +429,9 @@ export default function DETermsOfService() {
                           <li>Inhalte oder Ergebnisse euren Erwartungen, Zielen oder Compliance-Anforderungen entsprechen</li>
                         </ul>
                       </div>
-                    </details>
+                    </div>
 
-                    <details>
+                    <div>
                       <summary className="text-lg font-semibold cursor-pointer">2.9 Interaktion mit Creators</summary>
                       <div className="mt-2 space-y-3">
                         <p>
@@ -441,15 +450,15 @@ export default function DETermsOfService() {
                           82DASH behält sich das Recht vor, bei Verstoss gegen diese Grundsätze den Zugang zur Plattform einzuschränken – in Übereinstimmung mit branchenüblichen Standards und den Richtlinien der jeweiligen Plattformen.
                         </p>
                       </div>
-                    </details>
+                    </div>
 
                   </div>
-                </details>
+                </div>
 
-                <details className="mb-4 open">
-                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer">3. Nutzungsbedingungen für Creator</summary>
+                <div className="mb-4 open">
+                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">3. Nutzungsbedingungen für Creator</summary>
                   <div className="mt-4 space-y-4">
-                    <details>
+                    <div>
                       <summary className="text-lg font-semibold cursor-pointer">3.1 Creator-Konten</summary>
                       <div className="mt-2 space-y-3">
                         <p>
@@ -459,16 +468,19 @@ export default function DETermsOfService() {
                           Creator sind allein dafür verantwortlich, dass die von ihnen angegebene E-Mail-Adresse während der gesamten Dauer ihrer Beteiligung an 82DASH korrekt, aktuell und erreichbar bleibt.
                         </p>
                       </div>
-                    </details>
+                    </div>
 
-                    <details>
+                    <div>
                       <summary className="text-lg font-semibold cursor-pointer">3.2 Lizenzbedingungen für nutzergenerierte Inhalte</summary>
+                      <p className="mt-2 mb-2">Wenn Creator Inhalte bei 82DASH hochladen, gehen sie eine Lizenzvereinbarung mit dem Unternehmen ein, das die entsprechende Anfrage gestellt hat. Diese Vereinbarung regelt, wie das einreichende Unternehmen die Inhalte verwenden darf</p>
+                      <p>Ziel dieser Lizenz ist es, Transparenz, Fairness und ein klares Verständnis zwischen Creator und Unternehmen zu gewährleisten. Sie definiert den Umfang der übertragenen Rechte und beschreibt die Pflichten beider Parteien. Die spezifischen Bedingungen dieser Vereinbarung sind in den folgenden Abschnitten aufgeführt.</p>
                       <div className="mt-2 space-y-3">
                         <h4 className="font-semibold">3.2.1 Lizenzierung und Nutzungsrechte</h4>
                         <p>
                           Creator behalten das vollständige Eigentum an allen Inhalten, die sie bei 82DASH einreichen.
-                          Mit dem Hochladen von Inhalten als Reaktion auf eine konkrete Anfrage und der Bestätigung der Bedingungen beim Einreichen räumt der Creator dem anfragenden Unternehmen („dem anfragenden Unternehmen“) jedoch eine nicht-exklusive, unwiderrufliche, unbefristete, gebührenfreie und weltweite Lizenz zur Nutzung der Inhalte unter folgenden Bedingungen ein:
                         </p>
+                        <p>Mit dem Hochladen von Inhalten als Reaktion auf eine konkrete Anfrage und der Bestätigung der Bedingungen beim Einreichen räumt der Creator dem anfragenden Unternehmen („dem anfragenden Unternehmen“) jedoch eine nicht-exklusive, unwiderrufliche, unbefristete, gebührenfreie und weltweite Lizenz zur Nutzung der Inhalte unter folgenden Bedingungen ein:</p>
+                        <p>Das anfragende Unternehmen darf:</p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
                           <li>die Inhalte nutzen, vervielfältigen, anzeigen, verbreiten, bearbeiten, übersetzen, verändern und abgewandelte Werke davon erstellen</li>
                           <li>die Inhalte in allen Medien und Formaten verwenden, einschliesslich, aber nicht beschränkt auf: Social Media, Websites, Online- und Offline-Werbung, mobile Apps, gedruckte Materialien, E-Mail-Marketing und In-Store-Displays</li>
@@ -490,6 +502,7 @@ export default function DETermsOfService() {
                         <p>
                           Um informierte Einwilligung und Transparenz sicherzustellen, werden diese Lizenzbedingungen den Creatorn vor dem Upload klar dargestellt und müssen zum Zeitpunkt der Einreichung ausdrücklich akzeptiert werden.
                         </p>
+                        <p>Mit der Bestätigung dieser Bedingungen im Upload-Prozess erkennen Creator an und erklären sich damit einverstanden, dass:</p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
                           <li>die eingeräumte Lizenz unwiderruflich, unbefristet und weltweit gilt, sofern nicht schriftlich anders vereinbart</li>
                           <li>die eingereichten Inhalte in externen Marketingkampagnen, bezahlter Werbung und auf Drittplattformen ausserhalb des 82DASH-Ökosystems erscheinen können</li>
@@ -498,6 +511,7 @@ export default function DETermsOfService() {
                         </ul>
 
                         <h4 className="font-semibold">3.2.3 Bestätigung von Eigentum und Rechten</h4>
+                        <p>Mit der Einreichung von Inhalten bei 82DASH bestätigen Creator Folgendes:</p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
                           <li>Sie sind die ursprünglichen Urheber und alleinigen Rechteinhaber der Inhalte oder haben alle erforderlichen Rechte, Lizenzen und Genehmigungen eingeholt, um die Inhalte hochzuladen und die beschriebene Lizenz zu gewähren</li>
                           <li>Sie sind mindestens 18 Jahre alt (oder im entsprechenden Land volljährig, falls das gesetzliche Mindestalter höher liegt)</li>
@@ -507,6 +521,7 @@ export default function DETermsOfService() {
                         </ul>
 
                         <h4 className="font-semibold">3.2.4 Verzicht auf Rücknahme von Inhalten</h4>
+                        <p>Mit dem Hochladen von Inhalten und der Zustimmung zu den Lizenzbedingungen erkennen Creator an und erklären sich damit einverstanden, dass:</p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
                           <li>die dem anfragenden Unternehmen eingeräumte Lizenz unwiderruflich ist und die Inhalte nach der Einreichung und Annahme gemäss diesen Bedingungen nicht zurückgezogen werden können</li>
                           <li>die Inhalte weiterhin in Marketingmaterialien, Kampagnen und digitalen Kanälen erscheinen dürfen, die vom anfragenden Unternehmen verwaltet oder kontrolliert werden</li>
@@ -517,13 +532,13 @@ export default function DETermsOfService() {
                           Creator können sich jederzeit an 82DASH oder das anfragende Unternehmen wenden, um die Entfernung von Inhalten zu beantragen oder ein formelles Takedown-Verfahren einzuleiten. Jede Anfrage wird nach Treu und Glauben geprüft und im Einklang mit geltendem Recht und den Richtlinien der Plattform bearbeitet.
                         </p>
                       </div>
-                    </details>
+                    </div>
 
                   </div>
-                </details>
+                </div>
 
-                <details className="mb-4 open">
-                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer">4. Anwendbares Recht und Streitbeilegung</summary>
+                <div className="mb-4 open">
+                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">4. Anwendbares Recht und Streitbeilegung</summary>
                   <div className="mt-4 space-y-4">
                     <p>
                       Diese Bedingungen unterliegen dem Recht des Vereinigten Königreichs und sind entsprechend auszulegen – unter Ausschluss kollisionsrechtlicher Bestimmungen.
@@ -541,26 +556,26 @@ export default function DETermsOfService() {
                       Kurz gesagt: Wir versuchen, alles gemeinsam zu lösen – falls das nicht gelingt, werden alle rechtlichen Angelegenheiten im Vereinigten Königreich geregelt.
                     </p>
                   </div>
-                </details>
+                </div>
 
-                <details className="mb-4">
-                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer">5. Salvatorische Klausel</summary>
+                <div className="mb-4">
+                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">5. Salvatorische Klausel</summary>
                   <div className="mt-4 space-y-4">
                     <p>
                       Sollte eine Bestimmung dieser Bedingungen ganz oder teilweise ungültig, rechtswidrig oder nicht durchsetzbar sein, bleiben die übrigen Bestimmungen in vollem Umfang wirksam. Die ungültige oder nicht durchsetzbare Regelung wird im gesetzlich zulässigen Rahmen so ausgelegt, dass sie dem ursprünglichen Sinn und Zweck am nächsten kommt.
                     </p>
                   </div>
-                </details>
+                </div>
 
-                <details className="mb-4">
-                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer">6. Kontaktaufnahme mit 82DASH</summary>
+                <div className="mb-4">
+                  <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">6. Kontaktaufnahme mit 82DASH</summary>
                   <div className="mt-4 space-y-4">
                     <p>
-                      Wenn ihr Fragen, Anliegen oder Feedback zu diesen Bedingungen oder zur Plattform 82DASH habt, erreicht ihr uns unter: <a href="mailto:info@82dash.com" className="text-blue-600 underline">info@82dash.com</a>
-                    </p>
-                    <p>Wir bemühen uns, so schnell wie möglich zu antworten.</p>
+                      Wenn ihr Fragen, Anliegen oder Feedback zu diesen Bedingungen oder zur Plattform 82DASH habt, erreicht ihr uns unter: <a href="mailto:info@82dash.com" className="text-blue-600 underline">
+                    <br/>info@82dash.com</a>
+                    <br/>Wir bemühen uns, so schnell wie möglich zu antworten.</p>
                   </div>
-                </details>
+                </div>
 
               </section>
 
