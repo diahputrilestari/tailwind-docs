@@ -42,12 +42,13 @@ export default function PrivacyPolicy() {
 
                 <div className="space-y-6">
                   <div>
-                    <h3 className="font-semibold">1.1 What Personal Data We Collect and How</h3>
-                    <p>We only collect personal data that is necessary to provide and improve our services. The type of data we collect depends on your relationship with us:</p>
+                    <h3 className="font-semibold mb-4">1.1 What Personal Data We Collect and How</h3>
+                    <p>We only collect personal data that is necessary to provide and improve our services. The type of data we collect depends on your relationship with us</p>
                   </div>
 
                   <div>
                     <h3 className="font-semibold">1.2 From Creators (Content Contributors)</h3>
+                    <p className="mt-4 mb-4">When you submit content or participate in campaigns, we collect:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>Email address (required)</li>
                       <li>Phone number and address (optional)</li>
@@ -58,7 +59,7 @@ export default function PrivacyPolicy() {
                       <li>We collect and store information using unique identifiers linked to your browser, application, or device. This data may include technical information, usage statistics, and interaction data. </li>
                       <li>Consent confirmation, Consent records and licensing agreements (to show you’ve agreed to how your content is used).</li>
                     </ul>
-                    <p className="mt-2">Why We Collect It:</p>
+                    <p className="mt-2 mb-2">Why We Collect It:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>To enable participation in campaigns and submit content under a valid license.</li>
                       <li>To verify rights, consent, and eligibility for rewards.</li>
@@ -81,14 +82,14 @@ export default function PrivacyPolicy() {
 
                   <div>
                     <h3 className="">1.3 Companies</h3>
-                    <p className="mt-2">When you use our platform for campaigns, we collect:</p>
+                    <p className="mt-2 mb-2">When you use our platform for campaigns, we collect:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>Company name and business contact information.</li>
                       <li>User credentials (email, username, password).</li>
                       <li>Campaign setup and performance data.</li>
                       <li>Third-party integration metadata (e.g., Meta pixel, Klaviyo tracking).</li>
                     </ul>
-                    <p className="mt-2">Why We Collect It:</p>
+                    <p className="mt-2 mb-2">Why We Collect It:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>To set up and manage company accounts.</li>
                       <li>To support the creation and execution of campaigns.</li>
@@ -111,6 +112,7 @@ export default function PrivacyPolicy() {
                       <li>Receiving marketing communications</li>
                       <li>Use of cookies and similar technologies</li>
                     </ul>
+                    <p className="mt-2">You may withdraw your consent at any time.</p>
                     <p className="mt-2">82DASH does not intentionally collect or process special categories of personal data as defined under Article 9 of the GDPR (e.g., data revealing racial or ethnic origin, political opinions, religious beliefs, health data, or sexual orientation).</p>
                     <p className="mt-2">However, as a user-generated content platform, there may be instances where you voluntarily upload or submit content (such as images, videos, text, or responses to forms) that includes such sensitive data. By doing so, you acknowledge that this information is being provided at your discretion and with your explicit consent.</p>
                     <p className="mt-2">If special category data is processed, 82DASH will implement appropriate safeguards in accordance with applicable data protection laws, including limiting access and ensuring secure processing.</p>
@@ -161,12 +163,12 @@ export default function PrivacyPolicy() {
                   <div>
                     <h3 className="">1.7  Our Role as Data Processor</h3>
                     <p className="mt-2">In most cases, 82DASH acts as a Data Processor, which means we handle personal data on behalf of our client companies.</p>
-                    <p className="mt-2">Specifically:</p>
+                    <p className="mt-2 mb-2">Specifically:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>We process personal data such as email, address, or submitted images or videos - under the instructions of the client company.</li>
                       <li>The client company is the Data Controller. They decide why and how your data is used for example, in a social media campaign or on a brand’s website.</li>
                     </ul>
-                    <p className="mt-2">As a Data Processor, 82DASH is committed to the following:</p>
+                    <p className="mt-2 mb-2">As a Data Processor, 82DASH is committed to the following:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>Processing data strictly in accordance with the documented instructions of the Data Controller (our client).</li>
                       <li>Implementing robust technical and organisational measures to protect your personal data.</li>
@@ -191,7 +193,7 @@ export default function PrivacyPolicy() {
                     <p className="mt-2">We may work with trusted third-party subprocessors to help us deliver our Services. These subprocessors support tasks such as hosting, analytics, content delivery, customer support, and communication. For a full and up-to-date list of our subprocessors, please refer to our Subprocessor List.</p>
                     <p className="mt-2">Before we engage any subprocessor, we perform thorough due diligence to ensure they meet strong data protection and security standards.</p>
                     <p className="mt-2">Where required by law such as under the GDPR we enter into Data Processing Agreements (DPAs) with our subprocessors. These agreements include necessary safeguards (like Standard Contractual Clauses) for personal data transferred outside the European Economic Area (EEA), the United Kingdom, or other regions with similar transfer rules.</p>
-                    <p>
+                    <p className="mt-2">
                       You can request a list of our current subprocessors, including their names, functions, and countries of operation, by emailing us at
                       <a href="mailto:privacy@82dash.com" className="text-yellow-500 hover:underline"> privacy@82dash.com</a>.
                     </p>
@@ -200,7 +202,7 @@ export default function PrivacyPolicy() {
 
                   <div>
                     <h3 className="">1.10 Your Rights and Choices</h3>
-                    <p className="mt-2">Depending on your location, you may have the following rights:</p>
+                    <p className="mt-2 mb-2">Depending on your location, you may have the following rights:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>Access your personal data<br/>You have the right to request confirmation as to whether personal data concerning you is being processed. If so, you have the right to access that data and obtain detailed information in accordance with Article 15 of the GDPR
                       </li>
@@ -210,13 +212,13 @@ export default function PrivacyPolicy() {
                       <li>Data portability<br/>In certain cases, as detailed in Article 20 of the GDPR, you have the right to receive your personal data in a structured, commonly used, and machine-readable format. You may also request that this data be transmitted directly to another controller, where technically feasible.</li>
                       <li>Withdraw consent (where applicable)<br/>Where processing is based on your consent, you have the right to withdraw that consent at any time. Withdrawal of consent does not affect the lawfulness of processing carried out before its withdrawal.</li>
                     </ul>
-                    <p className="mt-2">California residents may also:</p>
+                    <p className="mt-2 mb-2">California residents may also:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>Opt-out of sale or sharing (note: we do not sell your data)</li>
                       <li>Correct or delete personal information</li>
                       <li>Receive non-discriminatory treatment for exercising rights</li>
                     </ul>
-                    <p>
+                    <p className="mt-2">
                       To exercise your rights, email us at
                       <a href="mailto:privacy@82dash.com" className="text-yellow-500 hover:underline"> privacy@82dash.com</a>.
                     </p>
@@ -224,7 +226,7 @@ export default function PrivacyPolicy() {
 
                   <div>
                     <h3 className="">1.11 How We Secure Your Personal Data</h3>
-                    <p className="mt-2">We apply a range of technical and organisational safeguards to protect your data:</p>
+                    <p className="mt-2 mb-2">We apply a range of technical and organisational safeguards to protect your data:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>All data is transmitted securely using HTTPS encryption.</li>
                       <li>Stored data is encrypted at the database level and protected with strict access controls.</li>
@@ -237,7 +239,7 @@ export default function PrivacyPolicy() {
 
                   <div>
                     <h3 className="">1.12 Data Retention</h3>
-                    <p className="mt-2">We retain personal data only as long as necessary to:</p>
+                    <p className="mt-2 mb-2">We retain personal data only as long as necessary to:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>Fulfill the purposes outlined in this Policy</li>
                       <li>Comply with legal or regulatory obligations</li>
@@ -248,7 +250,7 @@ export default function PrivacyPolicy() {
 
                   <div>
                     <h3 className="">1.13 International Transfers of Personal Data</h3>
-                    <p className="mt-2">Personal data may be transferred to and processed in countries outside of your home jurisdiction, including the United States. These transfers are made with appropriate safeguards such as:</p>
+                    <p className="mt-2 mb-2">Personal data may be transferred to and processed in countries outside of your home jurisdiction, including the United States. These transfers are made with appropriate safeguards such as:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>EU Standard Contractual Clauses (SCCs)</li>
                       <li>UK International Data Transfer Addendum</li>
@@ -258,7 +260,7 @@ export default function PrivacyPolicy() {
 
                   <div>
                     <h3 className="">1.14 Use of AI Features</h3>
-                    <p className="mt-2">We use artificial intelligence (AI) tools to enhance our platform’s functionality and user experience. These tools may process the following types of data:</p>
+                    <p className="mt-2 mb-2">We use artificial intelligence (AI) tools to enhance our platform’s functionality and user experience. These tools may process the following types of data:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>Content Inputs: Images, videos, and other media you upload (Creator Content)</li>
                       <li>Metadata: Information such as timestamps, tags, and responses to submission forms</li>
@@ -274,7 +276,7 @@ export default function PrivacyPolicy() {
                       <li>Assess content quality or relevance</li>
                       <li>Support filtering and search functions within the platform</li>
                     </ul>
-                    <p className="mt-2">
+                    <p className="mt-2 mb-2">
                       How Your Data Is Stored and Processed:
                     </p>
                     <ul className="list-disc pl-6 space-y-1">
@@ -304,7 +306,7 @@ export default function PrivacyPolicy() {
                     <h3 className="mt-2">1.4 California Consumer Privacy Act (CCPA)</h3>
                     <p className="mt-2">If you are a California resident, your personal data may be protected under the California Consumer Privacy Act (CCPA), as amended by the California Privacy Rights Act (CPRA).</p>
                     <p className="mt-2">82DASH complies with these laws and does not sell or share your personal data as defined under the CCPA/CPRA.</p>
-                    <p className="mt-2">As a California resident, you have the following rights:</p>
+                    <p className="mt-2 mb-2">As a California resident, you have the following rights:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>Right to Know: Request details about the personal data we collect, including the categories, specific pieces of data, sources, purposes for collection, and any third parties with whom it is shared.</li>
                       <li>Right to Delete: Request the deletion of your personal data, subject to certain legal exceptions.</li>
@@ -320,7 +322,7 @@ export default function PrivacyPolicy() {
 
                   <div>
                     <h3 className="text-lg">5.0 Updates to This Policy</h3>
-                    <p>We may amend or update this Privacy Policy from time to time. We will notify you of any material changes to this policy by a notice provided through the Platform or by other means. The “Last Updated” date at the top of this policy reflects the effective date of such policy changes.</p>
+                    <p className="mt-2">We may amend or update this Privacy Policy from time to time. We will notify you of any material changes to this policy by a notice provided through the Platform or by other means. The “Last Updated” date at the top of this policy reflects the effective date of such policy changes.</p>
                   </div>
 
                   <div>
