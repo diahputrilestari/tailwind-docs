@@ -57,7 +57,7 @@ export default function DataProcessingAgreement() {
                   <div className="mt-4 space-y-4">
                     <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">2. Begriffsbestimmungen</summary>
                     <div className="mt-2 space-y-3">
-                      <ol className="list-decimal pl-6">
+                      <ol className="list-decimal pl-6 space-y-3">
                       <li><strong>EU-Datenschutzrecht</strong> bezeichnet die Datenschutz-Grundverordnung (Verordnung (EU) 2016/679, „DSGVO“) sowie alle geltenden umsetzenden oder ergänzenden Datenschutzgesetze der EU-Mitgliedstaaten, soweit sie auf die Parteien anwendbar sind.</li>
                       <li><strong>Datenverantwortlicher</strong>bezeichnet die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung personenbezogener Daten entscheidet, gemäss Artikel 4 Nr. 7 DSGVO.</li>
                       <li><strong>Auftragsverarbeiter</strong>bezeichnet die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet, gemäss Artikel 4 Nr. 8 DSGVO.</li>
@@ -118,7 +118,7 @@ export default function DataProcessingAgreement() {
                       </li>
                       <li className="mt-4">
                         Der Auftragsverarbeiter trägt die Verantwortung dafür, dass seine interne organisatorische Struktur und Betriebsabläufe so gestaltet und aufrechterhalten werden, dass sie den Anforderungen des EU-Datenschutzrechts genügen. Gemäß Artikel 32 DSGVO trifft der Auftragsverarbeiter geeignete technische und organisatorische Maßnahmen zum Schutz der verarbeiteten personenbezogenen Daten. Diese beinhalten mindestens:
-                        <ol className="list-lower-alpha list-inside pl-6 mt-2 space-y-1">
+                        <ol className="list-lower-alpha list-inside pl-6 mt-2 space-y-3">
                           <li>Maßnahmen zur Pseudonymisierung und/oder Verschlüsselung personenbezogener Daten, soweit angemessen;</li>
                           <li>Maßnahmen zur Sicherstellung der laufenden Vertraulichkeit, Integrität, Verfügbarkeit und Belastbarkeit von Verarbeitungssystemen und -diensten;</li>
                           <li>Maßnahmen zur Wiederherstellung der Verfügbarkeit und des Zugriffs auf personenbezogene Daten bei einem physischen oder technischen Vorfall;</li>
@@ -387,8 +387,10 @@ export default function DataProcessingAgreement() {
                             <td className="p-3">
                               <ul className="list-disc pl-5 space-y-1">
                                 <li>Creators, die Inhalte über die Plattform 82DASH hochladen</li>
-                                <li>Personen, die in den Inhalten dargestellt sind</li>
+                                <ol>
+                                <li>- Personen, die in den Inhalten dargestellt sind</li>
                                 <li>-	Kundenunternehmen-Vertreter:innen (für Support- oder Kontozwecke, in begrenztem und nebensächlichem Umfang)</li>
+                                </ol>
                               </ul>
                             </td>
                           </tr>
@@ -401,10 +403,10 @@ export default function DataProcessingAgreement() {
                           <tr>
                             <th className="text-left p-3 font-medium">Kategorien von Empfängern (an die personenbezogene Daten übermittelt wurden oder werden können)</th>
                             <td className="p-3">
-                              <ul className="list-disc pl-5 space-y-1">
+                              <ol className=" pl-5 space-y-1">
                                 <li>-	Kundenunternehmen (Verantwortliche), die nutzergenerierte Inhalte über die Plattform 82DASH erhalten</li>
                                 <li>-	Unterauftragsverarbeiter, die Infrastruktur-, Analyse- oder Supportleistungen erbringen (gemäss DPA oder Subunternehmer-Anhang aufgeführt)</li>
-                              </ul>
+                              </ol>
                             </td>
                           </tr>
                           <tr className="bg-gray-50">
@@ -446,7 +448,7 @@ export default function DataProcessingAgreement() {
                   </summary>
                   <div className="mt-2 space-y-6">
                     <div>
-                      <h3 className="font-semibold">1. Zugangskontrolle zu Räumlichkeiten und Anlagen</h3>
+                      <h3 className="font-semibold mb-3">1. Zugangskontrolle zu Räumlichkeiten und Anlagen</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Elektronische Zugangskontrollsysteme</li>
                         <li>Ausweise, Magnetkarten, Chipkarten</li>
@@ -458,7 +460,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">2. Zugangskontrolle zu Systemen</h3>
+                      <h3 className="font-semibold mb-3">2. Zugangskontrolle zu Systemen</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Strenge Passwort-Richtlinien (z. B. Komplexitätsanforderungen, Ablaufregeln)</li>
                         <li>Keine Nutzung von Gast- oder anonymen Konten</li>
@@ -467,7 +469,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">3. Zugangskontrolle zu Daten</h3>
+                      <h3 className="font-semibold mb-3">3. Zugangskontrolle zu Daten</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Technische Massnahmen zur Verhinderung unbefugten Fernzugriffs</li>
                         <li>Rollenspezifisches Zugriffsmanagement</li>
@@ -477,7 +479,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">4. Weitergabekontrolle</h3>
+                      <h3 className="font-semibold mb-3">4. Weitergabekontrolle</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Verpflichtende Nutzung gesicherter privater Netzwerke für alle Datenübertragungen</li>
                         <li>Einschränkung oder Verbot von tragbaren Speichermedien</li>
@@ -487,7 +489,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">5. Eingabekontrolle</h3>
+                      <h3 className="font-semibold mb-3">5. Eingabekontrolle</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Protokolle zur Nachverfolgung von Dateneingaben, -änderungen und -löschungen</li>
                         <li>Möglichkeit zur Verifizierung und Rückverfolgung von Übertragungszielen</li>
@@ -497,7 +499,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">6. Auftragskontrolle</h3>
+                      <h3 className="font-semibold mb-3">6. Auftragskontrolle</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Eindeutig formulierte, verbindliche Weisungen zur Datenverarbeitung in Verträgen</li>
                         <li>Laufende Überwachung der Einhaltung durch den Auftragsverarbeiter</li>
@@ -505,7 +507,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">7. Verfügbarkeitskontrolle</h3>
+                      <h3 className="font-semibold mb-3">7. Verfügbarkeitskontrolle</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Verfahren zur Datenwiederherstellung bei Systemunterbrechungen</li>
                         <li>Überwachungssysteme zur Gewährleistung von Betriebszeit und Fehlerberichterstattung</li>
@@ -518,7 +520,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">8. Trennungskontrolle</h3>
+                      <h3 className="font-semibold mb-3">8. Trennungskontrolle</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Zugriffsbeschränkung gemäss Verwendungszweck und Mitarbeiterverantwortung</li>
                         <li>Getrennte Umgebungen für Entwicklung/Test und Produktion</li>

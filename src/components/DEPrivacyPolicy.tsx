@@ -45,7 +45,7 @@ export default function DEPrivacyPolicy() {
                 <div className="space-y-6">
                   <div>
                     <h3 className="font-semibold">1.1 Welche personenbezogenen Daten wir erfassen und wie</h3>
-                    <p>Wir erfassen nur personenbezogene Daten, die notwendig sind, um unsere Dienste bereitzustellen und zu verbessern.
+                    <p className="mt-4 mb-4">Wir erfassen nur personenbezogene Daten, die notwendig sind, um unsere Dienste bereitzustellen und zu verbessern.
                       <br/>Die Art der erfassten Daten hängt von Ihrer Beziehung zu uns ab:
                     </p>
                   </div>
@@ -78,7 +78,7 @@ export default function DEPrivacyPolicy() {
                       <li>Zur Sicherstellung der rechtlichen Konformität, einschliesslich der Benachrichtigung von Unternehmen über Betroffenenanfragen von Creators (z. B. Einwilligungswiderruf oder Löschung)</li>
                     </ul>
 
-                    <p className="mt-4">Datenverarbeitung:</p>
+                    <p className="mt-4 mb-4">Datenverarbeitung:</p>
                     <ul className="list-disc pl-6 space-y-1">
                       <li>Ihre personenbezogenen Daten werden während des Lizenzzeitraums sicher von 82DASH gespeichert.</li>
                       <li>Anschliessend werden sie an das Unternehmen übertragen, das Ihre Inhalte lizenziert hat – dieses wird zum Datenverantwortlichen und übernimmt die Verantwortung für die Daten.</li>

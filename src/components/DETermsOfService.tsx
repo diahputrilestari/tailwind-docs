@@ -72,11 +72,11 @@ export default function DETermsOfService() {
                   <div className="mb-4 mt-4">
                     <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.1 Wer darf 82DASH nutzen</summary>
                     <div className="mt-4 space-y-4">
-                      <h3 className="text-lg font-semibold">Altersvoraussetzungen</h3>
+                      <h3 className="text-lg">Altersvoraussetzungen</h3>
                       <p>
                         Ihr müsst mindestens 18 Jahre alt sein oder das gesetzliche Volljährigkeitsalter in eurem Land erreicht haben, um 82DASH nutzen zu dürfen. Mit der Nutzung der Plattform bestätigt ihr, dass ihr diese Voraussetzung erfüllt.
                       </p>
-                      <h3 className="text-lg font-semibold">Nutzung von 82DASH im Namen eines Unternehmens</h3>
+                      <h3 className="text-lg">Nutzung von 82DASH im Namen eines Unternehmens</h3>
                       <p>
                         Wenn ihr 82DASH im Namen eines Unternehmens, einer Organisation oder einer anderen juristischen Person nutzt, erklärt und gewährleistet ihr, dass ihr bevollmächtigt seid, diese an diese Bedingungen zu binden. In diesem Fall beziehen sich „ihr“ und „euch“ sowohl auf euch als natürliche Person als auch auf die vertretene Organisation.
                       </p>
