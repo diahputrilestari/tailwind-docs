@@ -66,7 +66,7 @@ export default function TermsOfServiceEn() {
                         </p>
                     </div>
 
-                    <summary className="text-xl text-gray-900 cursor-pointer pl-0 list-none">1.1 Who May Use 82DASH</summary>
+                    <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.1 Who May Use 82DASH</summary>
                     <div className="mt-4 space-y-4">
                         <h3 className="text-lg">Age Requirements</h3>
                         <p className="text-justify">
@@ -78,7 +78,7 @@ export default function TermsOfServiceEn() {
                         </p>
                     </div>
 
-                    <summary className="text-xl mt-4 text-gray-900 cursor-pointer pl-0 list-none">1.2 Account Registration</summary>
+                    <summary className="text-xl mt-4 font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.2 Account Registration</summary>
                     <div className="mt-4 space-y-4">
                         <p className="text-justify">
                         To access the 82DASH platform, you may need to create an account. When you register, you agree to provide accurate, current, and complete information, and to keep your account details up to date at all times.
@@ -89,12 +89,13 @@ export default function TermsOfServiceEn() {
                         </p>
                     </div>
 
-                    <summary className="text-xl mt-4 text-gray-900 cursor-pointer pl-0 list-none">1.3 Acceptable Use of the Platform</summary>
+                    <summary className="text-xl mt-4 font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.3 Acceptable Use of the Platform</summary>
                     <div className="mt-4 space-y-4">
                         <p>When using 82DASH, you agree to act responsibly and legally. You may not:</p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5 text-justify">
                         <li>Use the platform for any unlawful, fraudulent, malicious, or harmful purposes.</li>
-                        <li>Post content that contains or promotes violence or discrimination based on race, ethnicity, national origin, religion, caste, sexual orientation, sex, gender identity, serious disease, disability, immigration status or age; or otherwise contains harmful content (such as content that causes physical, mental or moral detriment to minors).</li>
+                        <li>Post content that contains or promotes violence or discrimination based on race, ethnicity, national origin, religion, caste, sexual orientation, sex, gender identity, serious disease, disability, immigration status or age; or .</li>
+                        <li>otherwise contains harmful content (such as content that causes physical, mental or moral detriment to minors)</li>
                         <li>Post or share content that is offensive, defamatory, misleading, or infringes on intellectual property rights, including copyrights, trademarks, or other proprietary rights.</li>
                         <li>Impersonate others or misrepresent your identity or affiliation.</li>
                         <li>Attempt to hack, decompile, reverse-engineer, or otherwise tamper with the platform’s code, features, or security systems.</li>
@@ -105,21 +106,21 @@ export default function TermsOfServiceEn() {
                         <p>We reserve the right to suspend or terminate access to your account if you violate any of these rules.</p>
                     </div>
 
-                    <summary className="text-xl mt-4 text-gray-900 cursor-pointer pl-0 list-none">1.4 Intellectual Property</summary>
+                    <summary className="text-xl mt-4 font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.4 Intellectual Property</summary>
                     <div className="mt-4 space-y-4 text-justify">
                         <p>All content, technology, and materials provided by 82DASH are protected by copyright, trademark, and other intellectual property laws. You agree not to reproduce, modify, distribute, or use any of our materials without prior written permission.</p>
                         <p>We respect intellectual property rights and require you to do the same. By using 82DASH, you agree not to use the platform for any unlawful or unauthorised purposes, including infringing on intellectual property rights.</p>
                         <p>We reserve the right, at our discretion and with or without notice, to block access to the platform or suspend or terminate the account of any user who infringes or is suspected of infringing intellectual property or proprietary rights.</p>
                     </div>
 
-                    <summary className="text-xl mt-4 text-gray-900 cursor-pointer pl-0 list-none">1.5 Privacy</summary>
+                    <summary className="text-xl mt-4 font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.5 Privacy</summary>
                     <div className="mt-4 space-y-4 text-justify">
                         <p>We care about your privacy. Our  <span className="text-black">[</span>
                           <a href="/privacy-policy" className="text-yellow-500 hover:underline">Privacy Policy</a><span className="text-black">]</span> explains how we collect, use, and protect your personal data when you use 82DASH. We comply with international privacy laws, including the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA).</p>
                         <p>Any content you upload that will contain personal data will be processed in accordance with our data protection terms, unless it is for purely personal or household use.</p>
                     </div>
 
-                    <summary className="text-xl mt-4 text-gray-900 cursor-pointer pl-0 list-none">1.6 Termination</summary>
+                    <summary className="text-xl mt-4 font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.6 Termination</summary>
                     <div className="mt-4 space-y-4 text-justify">
                         <p>We reserve the right to suspend or terminate your access to 82DASH if you breach these Terms or if required by law. If we believe, based on concrete reasons, that any of your content (1) violates these Terms or (2) may cause harm to 82DASH, other users, or third parties, we may remove or take down that content.</p>
                         <p>We will notify you promptly and provide the reason for our action.</p>
@@ -132,7 +133,7 @@ export default function TermsOfServiceEn() {
                         </ul>
                     </div>
 
-                    <summary className="text-xl mt-4 text-gray-900 cursor-pointer pl-0 list-none">1.7 Limitation of Liability</summary>
+                    <summary className="text-xl mt-4 font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.7 Limitation of Liability</summary>
                     <div className="mt-4 space-y-4 text-justify">
                         <p>What we’re not responsible for:</p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
@@ -144,7 +145,7 @@ export default function TermsOfServiceEn() {
                         <p>You agree to protect 82DASH, our team, and affiliates from any legal claims or damages caused by your use of the platform or the content you upload.</p>
                     </div>
 
-                    <summary className="text-xl mt-4 text-gray-900 cursor-pointer pl-0 list-none">1.8 Changes to Terms</summary>
+                    <summary className="text-xl mt-4 font-semibold text-gray-900 cursor-pointer pl-0 list-none">1.8 Changes to Terms</summary>
                     <div className="mt-4 space-y-4 text-justify">
                         <p>82DASH may occasionally need to update these Terms to reflect:</p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
@@ -164,7 +165,7 @@ export default function TermsOfServiceEn() {
                   <div className="mt-4 space-y-4">
                       
                       <div>
-                        <summary className="text-lg mt-4 cursor-pointer pl-0 list-none">2.1 Company Accounts</summary>
+                        <summary className="text-lg mt-4 font-semibold cursor-pointer pl-0 list-none">2.1 Company Accounts</summary>
                         <div className="mt-2 space-y-3 text-justify">
                           <p>
                             Companies using 82DASH must appoint an authorised representative to manage their account. The company is responsible for all activity carried out through its account, including actions taken by employees, contractors, or any third party using its access. It is the company’s duty to ensure proper use and to safeguard account credentials.
@@ -173,9 +174,9 @@ export default function TermsOfServiceEn() {
                       </div>
 
                       <div>
-                        <summary className="text-lg mt-4 cursor-pointer pl-0 list-none">2.2 Company Content Licence Usage Terms</summary>
+                        <summary className="text-lg mt-4 font-semibold cursor-pointer pl-0 list-none">2.2 Company Content Licence Usage Terms</summary>
                         <p className="text-justify">When your company receives content through 82DASH, you are granted a license to use that content as outlined in this section.</p>
-                        <p className="text-justify">These terms explain the extent of your rights, your responsibilities as a licensee, and how you may handle, share, and protect content submitted by creators. They are intended to ensure that all materials shared through the platform are used in a lawful, respectful, and appropriate manner.</p>
+                        <p className="text-justify mt-4">These terms explain the extent of your rights, your responsibilities as a licensee, and how you may handle, share, and protect content submitted by creators. They are intended to ensure that all materials shared through the platform are used in a lawful, respectful, and appropriate manner.</p>
                         <div className="mt-2 space-y-3">
                           <h4>2.2.1 Licence Scope & Rights</h4>
                           <p className="text-justify">
@@ -212,9 +213,10 @@ export default function TermsOfServiceEn() {
                         <div className="mt-4">
                           <h4 className="mt-4 mb-4">2.2.3 Endorsement and Disclosure Requirements</h4>
                           <p className="text-justify">
-                            If creator content is used in a way that implies endorsement (especially when incentives are involved), proper disclosure must be clearly and visibly included according to laws and platform rules.
+                            If content submitted via 82DASH is used in a manner that implies an endorsement particularly where the creator has received any form of incentive, reward, or compensation the Company must ensure that clear and conspicuous disclosure is made in accordance with applicable local advertising and consumer protection laws and the content policies of relevant platforms
                           </p>
-                          <p>82DASH is not liable for non-disclosure by the company.</p>
+                          <p className="mt-4">Such disclosure must include visible and platform-compliant indicators or equivalent notices, wherever the content appears publicly.</p>
+                          <p className="mt-4">82DASH is not liable for any failure by the Company to comply with these disclosure requirements when publishing incentivised content.</p>
                         </div>
                         
                         <div className="mt-4 text-justify">
@@ -273,14 +275,14 @@ export default function TermsOfServiceEn() {
                       </div>
                       
                       <div className="mt-4 mb-4 text-justify">
-                        <summary className="text-lg cursor-pointer pl-0 list-none">2.3 Platform Policy Compliance</summary>
+                        <summary className="text-lg font-semibold cursor-pointer pl-0 list-none">2.3 Platform Policy Compliance</summary>
                         <div className="mt-2 space-y-3">
                           <p>The Company is solely responsible for ensuring that all use of licensed content complies with the content, advertising, and user policies of any platform where the content is distributed or published, including but not limited to Meta (Facebook/Instagram), TikTok, YouTube, and Google.</p>
                         </div>
                       </div>
 
                     <div className="mt-4 mb-4 text-justify">
-                      <summary className="text-lg cursor-pointer pl-0 list-none">2.4 Liability and Indemnification</summary>
+                      <summary className="text-lg font-semibold cursor-pointer pl-0 list-none">2.4 Liability and Indemnification</summary>
                       <div className="mt-2 space-y-3">
                         <p>82DASH requires all content uploaders to confirm, at the time of submission, that they:</p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
@@ -301,7 +303,7 @@ export default function TermsOfServiceEn() {
                     </div>
 
                     <div className="mt-4 mb-4 text-justify">
-                      <summary className="text-lg cursor-pointer pl-0 list-none">2.5 Content Moderation and Usage Limitations</summary>
+                      <summary className="text-lg font-semibold mb-4 cursor-pointer pl-0 list-none">2.5 Content Moderation and Usage Limitations</summary>
                       <p>82DASH maintains the right, at its sole discretion, to moderate, restrict, or remove any content submitted to or distributed through the platform in order to comply with applicable laws and regulations. </p>
                       <div className="mt-2 space-y-3">
                         <p>82DASH may take action to:</p>
@@ -316,14 +318,14 @@ export default function TermsOfServiceEn() {
                     </div>
 
                     <div className="mt-4 mb-4 text-justify">
-                      <summary className="text-lg cursor-pointer pl-0 list-none">2.6 Indemnification</summary>
+                      <summary className="text-lg font-semibold cursor-pointer pl-0 list-none">2.6 Indemnification</summary>
                       <div className="mt-2 space-y-3">
                         <p>You agree to defend, indemnify and hold harmless 82DASH and its affiliates, employees, contractors, agents, officers and directors, from and against any and all claims, damages, losses, liabilities, costs or expenses (including reasonable legal fees) arising out of or related to: (a) your use or misuse of the 82DASH platform; (b) any breach of these Terms; or (c) any content you have accessed, used, or distributed through 82DASH that infringes the rights of a third party.</p>
                       </div>
                     </div>
 
                     <div className="mt-4 mb-4 text-justify">
-                      <summary className="text-lg cursor-pointer pl-0 list-none">2.7 Limitation of Liability</summary>
+                      <summary className="text-lg font-semibold cursor-pointer pl-0 list-none">2.7 Limitation of Liability</summary>
                       <div className="mt-2 space-y-3">
                         <p>To the fullest extent allowed by law, 82DASH and its directors, officers, employees, partners, agents, suppliers, and affiliates will not be responsible for any indirect, incidental, special, consequential, or punitive damages. This includes, but is not limited to, loss of profits, data, use, goodwill, or other intangible losses arising from:</p>
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
@@ -336,7 +338,7 @@ export default function TermsOfServiceEn() {
                     </div>
 
                     <div className="mt-4 mb-4 text-justify">
-                      <summary className="text-lg cursor-pointer pl-0 list-none">2.8 Disclaimer</summary>
+                      <summary className="text-lg font-semibold mt-4 cursor-pointer pl-0 list-none">2.8 Disclaimer</summary>
                       <p>The use of 82DASH platform is at your own risk. The platform and all services provided through it are offered on an “as is” and “as available” basis, without warranties of any kind, whether express, implied, or statutory.</p>
                       <div className="mt-2 space-y-3">
                         <p>To the maximum extent permitted by applicable law, 82DASH expressly disclaims all warranties, including but not limited to:</p>
@@ -357,7 +359,7 @@ export default function TermsOfServiceEn() {
                     </div>
 
                     <div className="mt-4 mb-4 text-justify">
-                      <summary className="text-lg cursor-pointer pl-0 list-none">2.9 Engaging with Creators</summary>
+                      <summary className="text-lg font-semibold cursor-pointer mb-4 pl-0 list-none">2.9 Engaging with Creators</summary>
                       <p>82DASH expects all companies to engage with creators in a respectful, lawful, and professional manner, both on and off the platform. This includes all forms of communication, feedback, and interaction related to creator-submitted content.</p>
                       <div className="mt-2 space-y-3">
                         <ul className="space-y-3 mb-6 mt-4 list-disc pl-5">
@@ -376,7 +378,7 @@ export default function TermsOfServiceEn() {
                   <summary className="text-xl font-semibold text-gray-900 cursor-pointer pl-0 list-none">3. Terms of Use for Creators</summary>
                   <div className="mt-4 space-y-4">
                     <div>
-                      <summary className="text-lg  cursor-pointer  pl-0 list-none">3.1 Creator Accounts</summary>
+                      <summary className="text-lg   font-semibold cursor-pointer  pl-0 list-none">3.1 Creator Accounts</summary>
                       <div className="mt-2 space-y-3">
                         <p>Creators are not required to create a user account to participate on the 82DASH platform. Instead, they may submit content directly by providing a valid and active email address, which is used for communication, verification, and record-keeping purposes.</p>
                         <p>Creators are solely responsible for ensuring that the email address they provide remains accurate, current, and accessible for the duration of their involvement with 82DASH.</p>
@@ -384,7 +386,7 @@ export default function TermsOfServiceEn() {
                     </div>
 
                     <div className="mt-4 text-justify">
-                      <summary className="text-lg  cursor-pointer  pl-0 list-none">3.2 User Content Licence Terms</summary>
+                      <summary className="text-lg  font-semibold cursor-pointer  pl-0 list-none">3.2 User Content Licence Terms</summary>
                       <p className="mt-4">When creators upload content to 82DASH, they enter into a license agreement with the company that initiated the corresponding content request. This agreement governs how the submitted content may be used by that company.</p>
                       <p className="mt-4">The purpose of this license is to ensure transparency, fairness, and a clear understanding between creators and business users. It defines the scope of the rights granted and outlines the responsibilities of both parties. The specific terms of this agreement are detailed in the following sections.</p>
                       <div className="mt-2 space-y-3">
