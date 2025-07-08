@@ -61,7 +61,7 @@ export default function DataProcessingAgreement() {
                       <li className="mt-4"><strong>EU Data Protection Law</strong>: shall mean the General Data Protection Regulation (Regulation (EU) 2016/679, “GDPR”) and any applicable implementing or supplementary data protection laws of EU Member States as applicable to the parties</li>
                       <li className="mt-4"><strong>Data Controller</strong>:means the natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data, as defined in Article 4(7) GDPR.</li>
                       <li className="mt-4"><strong>Data Processor</strong>: means a natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller, as defined in Article 4(8) GDPR.</li>
-                      <li className="mt-4"><strong>Data Subject</strong>: Data Subject" means an identified or identifiable natural person whose personal data is processed by the controller or processor, as defined in Article 4(1) GDPR.</li>
+                      <li className="mt-4"><strong>Data Subject</strong>: means an identified or identifiable natural person whose personal data is processed by the controller or processor, as defined in Article 4(1) GDPR.</li>
                       <li className="mt-4"><strong>Personal Data</strong>: means any information relating to an identified or identifiable natural person (“data subject”), as defined in Article 4(1) GDPR.</li>
                       <li className="mt-4"><strong>GDPR</strong>: refers to Regulation (EU) 2016/679 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data.</li>
                       <li className="mt-4">Terms not otherwise explicitly defined in this DPA shall have the meanings attributed to them under the GDPR</li>
@@ -179,7 +179,7 @@ export default function DataProcessingAgreement() {
                 <div className="mt-4 space-y-4">
                   <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">9. Use of Sub-processors</summary>
                   <div className="mt-2 space-y-3">
-                    <ol className="list-decimal pl-6">
+                    <ol className="list-decimal pl-6 space-y-3">
                       <li>The Processor shall carry out the agreed services, or the specific parts thereof as listed in <strong>Annex 3</strong>, with the assistance of the subprocessors identified therein. The Processor is permitted to engage additional subprocessors in connection with the performance of its contractual obligations. The Controller shall be informed without undue delay of the intended addition or replacement of subprocessors by email to the address provided by the Controller.</li>
                       <li>The Processor shall select any subprocessor with due diligence, ensuring their reliability and capability to comply with applicable data protection requirements. Any subprocessor engaged by the Processor must be bound by data protection obligations substantially equivalent to those set out in this DPA. The Processor shall ensure that the Controller’s rights, particularly the rights of inspection and audit, can also be exercised directly against any engaged subprocessor.</li>
                       <li>If a subprocessor is located in a third country outside the European Economic Area, the Processor must ensure that such subprocessor provides adequate safeguards in accordance with Articles 44 et seq. GDPR. This includes, where necessary, the execution of Standard Contractual Clauses and the implementation of supplementary measures to ensure an essentially equivalent level of protection. The Controller retains the right to object to the engagement or replacement of subprocessors in accordance with Article 28(2) GDPR.</li>
@@ -191,7 +191,7 @@ export default function DataProcessingAgreement() {
                   <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">10. International Data Transfers</summary>
                   <div className="mt-2 space-y-3">
                     <p>The Controller and the Processor acknowledge that:</p>
-                    <ol className="list-decimal pl-6">
+                    <ol className="list-decimal pl-6 space-y-3">
                       <li>If  the Processor or Controller is located outside the EEA or processes personal data outside the EEA, any transfer of personal data must comply with the requirements of Articles 44 ff. of the GDPR. The Controller ensures that such transfers will be governed by the EU Commission’s Standard Contractual Clauses (Commission Implementing Decision (EU) 2021/914 of 04 June 2021), as outlined in Annex 4, and any supplementary measures necessary to ensure compliance with these clauses</li>
                       <li>In the event of a conflict between the provisions of this DPA and the Standard Contractual Clauses, the terms of the Standard Contractual Clauses shall take precedence.</li>
                       <li>In the event of a revised version of the Standard Contractual Clauses being published, both parties commit to ensuring promptly accept the updated terms to maintain compliance with GDPR regarding international data transfers to third countries</li>
@@ -212,7 +212,7 @@ export default function DataProcessingAgreement() {
                   <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">12. Controller’s Responsibilities Upon Termination</summary>
                   <div className="mt-2 space-y-3">
                     <p>This DPA remains in effect as long as the Controller continues to use the Processor’s platform services. Upon termination of the Controller’s account:</p>
-                    <ol className="list-decimal pl-6">
+                    <ol className="list-decimal pl-6 space-y-3">
                       <li>The Processor will delete or anonymise all personal data processed on behalf of the Controller, unless the Processor is legally obligated to retain the data</li>
                       <li>The Controller is responsible for ensuring that any personal data transferred to it by the Processor prior to termination is retained, managed, and disposed of in accordance with applicable data protection laws. This includes ensuring compliance with any ongoing obligations for data retention or further processing, as required by law or the Controller’s own operational needs.</li>
                     </ol>
@@ -222,7 +222,7 @@ export default function DataProcessingAgreement() {
                 <div className="mt-4 space-y-4">
                   <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">13. Final Clauses</summary>
                   <div className="mt-2 space-y-3">
-                    <ol className="list-decimal pl-6">
+                    <ol className="list-decimal pl-6 space-y-3">
                       <li>This DPA shall remain in effect for the duration of the Main Contract, unless terminated earlier in accordance with applicable law or the provisions herein. Upon termination, the Processor shall, at the Controller’s choice, delete or return all personal data, unless legal obligations require otherwise.</li>
                       <li>This DPA constitutes the entire agreement between the Parties concerning its subject matter and supersedes all prior agreements or understandings. Any changes must be made in writing and agreed upon by both Parties (electronic communication suffices).</li>
                       <li>If any provision of this DPA is or becomes partially or wholly invalid or unenforceable, the validity of the remaining provisions shall not be affected</li>
@@ -293,7 +293,7 @@ export default function DataProcessingAgreement() {
                             <td className="p-3">Yes – Special category data may be processed if it is visible or audible in the user-generated content (e.g. health status, ethnicity, religious symbols). This is incidental and not explicitly collected by 82DASH but can occur based on content submitted by users.</td>
                           </tr>
                           <tr>
-                            <th className="text-left p-3 font-medium">Categories of recipients (to whom the personal datahave been or will be disclosed)</th>
+                            <th className="text-left p-3 font-medium">Categories of recipients (to whom the personal data have been or will be disclosed)</th>
                             <td className="p-3">
                               <ul className="list-disc pl-5 space-y-1">
                                 <li>Client companies (Controllers) who receive user-submitted content via the 82DASH platform</li>
@@ -326,7 +326,7 @@ export default function DataProcessingAgreement() {
                   <summary className="text-lg font-semibold text-gray-800 pl-0 list-none">Annex 2 – Technical and Organisational Security Measures of the Processor:</summary>
                   <div className="mt-2 space-y-6">
                     <div>
-                      <h3 className="font-semibold">1. Access Control to Premises and Facilities</h3>
+                      <h3 className="font-semibold mb-2">1. Access Control to Premises and Facilities</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Electronic access control systems</li>
                         <li>ID cards, magnetic badges, chip cards</li>
@@ -338,7 +338,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">2. Access Control to Systems</h3>
+                      <h3 className="font-semibold mb-2">2. Access Control to Systems</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Strong password policies (i.e. complexity requirements, expiry rules)</li>
                         <li>No use of guest or anonymous accounts</li>
@@ -347,7 +347,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">3. Access Control to Data</h3>
+                      <h3 className="font-semibold mb-2">3. Access Control to Data</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Technical measures to prevent unauthorised remote access</li>
                         <li>Role-based access rights management</li>
@@ -357,7 +357,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">4. Disclosure Control</h3>
+                      <h3 className="font-semibold mb-2">4. Disclosure Control</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Enforced use of secure private networks for all data transmission</li>
                         <li>Restriction or prohibition of portable storage media</li>
@@ -367,7 +367,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">5. Input Control</h3>
+                      <h3 className="font-semibold mb-2">5. Input Control</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Audit trails for data entry, modification, and deletion</li>
                         <li>Ability to verify and trace data transmission targets</li>
@@ -377,7 +377,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">6. Job Control</h3>
+                      <h3 className="font-semibold mb-2">6. Job Control</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Clearly worded, binding data processing instructions in contracts</li>
                         <li>Ongoing monitoring of processor compliance</li>
@@ -385,7 +385,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">7. Disclosure Control</h3>
+                      <h3 className="font-semibold mb-2">7. Disclosure Control</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Data recovery procedures in place for system interruptions</li>
                         <li>Monitoring systems to ensure uptime and fault reporting</li>
@@ -398,7 +398,7 @@ export default function DataProcessingAgreement() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold">8. Segregation Control</h3>
+                      <h3 className="font-semibold mb-2">8. Segregation Control</h3>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Access limitation based on purpose and staff responsibilities</li>
                         <li>Separate environments for development/testing and production</li>
